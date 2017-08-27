@@ -10,60 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db47f7bb-0e63-4450-8b69-300346bc7d22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/HandleManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/UniversalErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsHandleManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/FieldsHandleListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/HandleFailListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/HandleSuccessListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/PhoneValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/NetworkRequestsErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/listeners/RequestsHandleListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalRequestCode.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-08-26-23-35-37-129.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/ErrorHandleManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/NetworkRequestsErrorHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/listeners/HandleFailListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/validators/PhoneValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/FieldsErrorHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/validators/CreditCardValidator.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/CreditCardValidator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/RequestsHandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsHandleManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalTargetType.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalFieldType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-26.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-26.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-debug.aar" afterPath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-release.aar" afterPath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/ErrorResultListener.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/androidTest/java/github/homepunk/com/universalerrorhandler/ExampleInstrumentedTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/HandleFailListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/test/java/github/homepunk/com/universalerrorhandler/ExampleUnitTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/HandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/UniversalDestination.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/HandleResultDestination.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/UniversalErrorHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsHandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/FieldsHandleListener.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/interfaces/FieldsHandleListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/HandleSuccessListener.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/SuccessResultListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/NetworkRequestsErrorHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsErrorHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsHandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/RequestsHandleManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/Constants.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/Constants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalAction.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalFieldAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalDestinationType.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalResultType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build.gradle" afterPath="$PROJECT_DIR$/sample/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/sample/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/res/merged/debug/menu/menu_login_example.xml" afterPath="$PROJECT_DIR$/sample/build/intermediates/res/merged/debug/menu/menu_login_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/sample/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/sample.iml" afterPath="$PROJECT_DIR$/sample/sample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java" afterPath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivityPresenter.java" afterPath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivityPresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/interfaces/LoginExampleView.java" afterPath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/interfaces/LoginExampleView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/HandleField.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/HandleField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalRequestCode.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalRequestCode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/universalerrorhandler.iml" afterPath="$PROJECT_DIR$/universalerrorhandler/universalerrorhandler.iml" />
     </list>
     <ignored path="example.iws" />
@@ -95,12 +61,12 @@
     <favorites_list name="example" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RequestsHandleManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsHandleManager.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UniversalHandleManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="256">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,96 +74,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniversalAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalAction.java">
+      <file leaf-file-name="UniversalResultType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalResultType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="252">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniversalRequestCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalRequestCode.java">
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreditCardValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/CreditCardValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FieldsHandleManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsHandleManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleFailListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/HandleFailListener.java">
+      <file leaf-file-name="ErrorResultListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/ErrorResultListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhoneValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/PhoneValidator.java">
+      <file leaf-file-name="SuccessResultListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/SuccessResultListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetworkRequestsErrorHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/NetworkRequestsErrorHandler.java">
+      <file leaf-file-name="FieldsHandleListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/interfaces/FieldsHandleListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="9" column="94" selection-start-line="9" selection-start-column="94" selection-end-line="9" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextWatcherWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/wrappers/TextWatcherWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="UniversalErrorHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/UniversalErrorHandler.java">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="198">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FieldsErrorHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java">
+      <file leaf-file-name="HandleField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/HandleField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandleResultDestination.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/HandleResultDestination.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -3094,63 +3056,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/manager/UniversalFieldsHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/manager/ErrorHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/manager/interfaces/FieldsHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/manager/RequestsHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/manager/FieldsHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/manager/interfaces/HandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/interfaces/HandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalAction.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/github/homepunk/com/example/LoginActivityPresenter.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalDestinationType.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/github/homepunk/com/example/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/PhoneErrorHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/validators/PhoneErrorHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/validators/CreditCardValdiator.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/validators/CreditCardValidator.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/validators/PhoneValidator.java" />
         <option value="$PROJECT_DIR$/sample/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/RequestsHandleManager.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/interfaces/LoginExampleView.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/listeners/HandleFailListener.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/listeners/MutualHandleFailtListener.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/ErrorHandleManager.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/listeners/HandleSuccessListener.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/NetworkRequestsErrorHandler.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivityPresenter.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/ErrorMessages.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalFieldsHandleManager.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/FieldsErrorHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/ErrorHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/listeners/MutualHandleFailListener.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalTargetType.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalFieldType.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/listeners/MutualHandleListener.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/listeners/RequestHandleListener.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/listeners/FieldHandleListener.java" />
-        <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/HandleManager.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/field/FieldsErrorHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/field/interfaces/HandleFailListener.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/request/NetworkRequestsErrorHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/NetworkRequestsErrorHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/UniversalErrorHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalRequestCode.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsHandleManager.java" />
+        <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalErrorType.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalFieldAction.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalRequestCode.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/UniversalHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/RequestsHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/ErrorsDestination.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/ErrorListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/UniversalErrorListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/HandleResultDestination.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/HandleSuccessListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/SuccessResultListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/listeners/SuccessResultListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/SuccessResultListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/FailResultListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/ErrorResultListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalTargetType.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalResultType.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="-28" />
     <option name="width" value="1600" />
-    <option name="height" value="900" />
+    <option name="height" value="928" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -3177,9 +3140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -3216,20 +3177,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="universalerrorhandler" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="universalerrorhandler" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
@@ -3253,29 +3200,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="universalerrorhandler" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="universalerrorhandler" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handlers" />
+              <option name="myItemId" value="managers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3298,66 +3223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="requests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="universalerrorhandler" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="universalerrorhandler" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fields" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="universalerrorhandler" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="universalerrorhandler" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fields" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listeneres" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3405,6 +3270,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3425,13 +3292,13 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.homepunk.com.universalerrorhandler" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/github/homepunk/com/example" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="github.homepunk.com.universalerrorhandler.handlers.interfaces.listeners" />
       <recent name="github.homepunk.com.universalerrorhandler.handlers.validators" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/github/homepunk/com/example" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.sample">
@@ -3810,8 +3677,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="900" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="-28" width="1600" height="928" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -3826,8 +3693,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3841,6 +3707,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3888,8 +3755,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsHandleManager.java</url>
-          <line>111</line>
+          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java</url>
+          <line>114</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -3924,26 +3791,14 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsHandleManager.java</url>
-          <line>89</line>
+          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java</url>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/HandleManager.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java</url>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
@@ -3953,14 +3808,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/content_login_example.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -3985,7 +3832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3993,11 +3839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#443#444#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4005,9 +3846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4023,7 +3861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4038,7 +3875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4046,7 +3882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4054,7 +3889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4069,7 +3903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4077,7 +3910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4085,21 +3917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/HandleField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/UniversalDestination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -4132,19 +3949,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalDestinationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4153,9 +3961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4163,7 +3968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4171,7 +3975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4179,7 +3982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4187,10 +3989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4198,18 +3996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4217,135 +4003,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="2882" column="17" selection-start-line="2882" selection-start-column="17" selection-end-line="2882" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsHandleManager.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalFieldType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6228#6229#0" expanded="true" />
+            <element signature="e#6255#6256#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/listeners/RequestsHandleListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/HandleManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1799#2084#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2136#2411#0" expanded="true" />
-            <element signature="e#2410#2411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/FieldsHandleListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/HandleSuccessListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/listeneres/HandleFailListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/UniversalErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsHandleManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalRequestCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsHandleManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/NetworkRequestsErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4367,11 +4036,163 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="306">
           <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalFieldType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalFieldAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalRequestCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/listeners/RequestsHandleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/RequestsHandleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6228#6229#0" expanded="true" />
+            <element signature="e#6255#6256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/wrappers/TextWatcherWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/HandleField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/interfaces/FieldsHandleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="94" selection-start-line="9" selection-start-column="94" selection-end-line="9" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/SuccessResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/ErrorResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/annotations/HandleResultDestination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalResultType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

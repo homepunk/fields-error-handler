@@ -1,4 +1,4 @@
-package github.homepunk.com.universalerrorhandler.handlers.fields.listeneres;
+package github.homepunk.com.universalerrorhandler.handlers.fields.interfaces;
 
 import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
 

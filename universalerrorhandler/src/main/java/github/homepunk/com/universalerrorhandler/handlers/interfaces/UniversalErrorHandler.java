@@ -1,8 +1,6 @@
-package github.homepunk.com.universalerrorhandler.handlers;
+package github.homepunk.com.universalerrorhandler.handlers.interfaces;
 
 
-import github.homepunk.com.universalerrorhandler.handlers.fields.listeneres.HandleFailListener;
-import github.homepunk.com.universalerrorhandler.handlers.fields.listeneres.HandleSuccessListener;
 import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
 
 /**
@@ -34,12 +32,12 @@ public interface UniversalErrorHandler {
     /**
      * onFieldHandleResult method would be called every time when validation on handleOnAction fails
      */
-    void setOnHandleFailListener(HandleFailListener handleFailListener);
+    void setOnHandleFailListener(ErrorResultListener errorResultListener);
 
     /**
      * Sets general @action to be executed on success handling
      *
-     * @param handleSuccessListener action to be executed
+     * @param successResultListener action to be executed
      */
-    void setOnHandleSuccessListener(HandleSuccessListener handleSuccessListener);
+    void setOnHandleSuccessListener(SuccessResultListener successResultListener);
 }

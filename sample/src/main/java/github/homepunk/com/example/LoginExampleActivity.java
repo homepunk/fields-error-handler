@@ -11,16 +11,19 @@ import android.widget.Toast;
 
 import github.homepunk.com.example.interfaces.LoginExamplePresenter;
 import github.homepunk.com.example.interfaces.LoginExampleView;
-import github.homepunk.com.universalerrorhandler.HandleManager;
+import github.homepunk.com.universalerrorhandler.managers.UniversalHandleManager;
+import github.homepunk.com.universalerrorhandler.annotations.HandleField;
 import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
 
-import static github.homepunk.com.universalerrorhandler.models.UniversalAction.ON_FOCUS_MISS;
-import static github.homepunk.com.universalerrorhandler.models.UniversalAction.ON_TEXT_CHANGE;
+import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.ON_FOCUS_MISS;
+import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.ON_TEXT_CHANGE;
 import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.EMAIL;
 import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.PASSWORD;
 
 public class LoginExampleActivity extends AppCompatActivity implements LoginExampleView {
+    @HandleField(EMAIL)
     EditText emailEditText;
+    @HandleField(PASSWORD)
     EditText passwordEditText;
     TextInputLayout emailInputLayout;
     TextInputLayout passwordInputLayout;
@@ -33,24 +36,19 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         setContentView(R.layout.activity_login_example);
         init();
 
-        HandleManager.setFieldsHandleListener((targetType, isSuccess, error) -> {
+        UniversalHandleManager.setRequestsHandleListener((requestCode, isSuccess, error) -> {});
+        UniversalHandleManager.setFieldsHandleListener((fieldType, isSuccess, error) -> {
             if (!isSuccess) {
-                switch (targetType) {
-                    case EMAIL: {
-                        showError(error);
-                        break;
-                    }
-                    case PASSWORD: {
-                        showError(error);
-                        break;
-                    }
-                }
+                handleFieldError(fieldType);
             }
         });
-        HandleManager.setRequestsHandleListener((requestCode, isSuccess, error) -> {});
-
-        HandleManager.target(emailEditText, EMAIL).handleOnAction(ON_FOCUS_MISS);
-        HandleManager.target(passwordEditText, PASSWORD).handleOnAction(ON_TEXT_CHANGE)
+        UniversalHandleManager.target(emailEditText, EMAIL)
+                .handleOnAction(ON_FOCUS_MISS)
+                .setDefaultMask("##@##.##", '#')
+                .setSuccessCondition(false)
+                .setOnSuccessListener(() -> {})
+                .setOnFailListener(failMessage -> {});
+        UniversalHandleManager.target(passwordEditText, PASSWORD).handleOnAction(ON_TEXT_CHANGE)
                 .setOnFailListener(failMessage -> passwordInputLayout.setError(failMessage))
                 .setOnSuccessListener(() -> passwordInputLayout.setError(""));
     }
@@ -61,7 +59,7 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         super.onDestroy();
     }
 
-    public void handleErrors(@UniversalFieldType int errorType) {
+    public void handleFieldError(@UniversalFieldType int errorType) {
         switch (errorType) {
             case EMAIL: {
                 emailInputLayout.setError("Email can't be empty");

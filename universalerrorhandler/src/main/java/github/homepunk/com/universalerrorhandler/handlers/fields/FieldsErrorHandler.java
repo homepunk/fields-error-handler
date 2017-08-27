@@ -2,15 +2,15 @@ package github.homepunk.com.universalerrorhandler.handlers.fields;
 
 import android.util.Patterns;
 
-import github.homepunk.com.universalerrorhandler.handlers.UniversalErrorHandler;
-import github.homepunk.com.universalerrorhandler.handlers.fields.listeneres.HandleFailListener;
-import github.homepunk.com.universalerrorhandler.handlers.fields.listeneres.HandleSuccessListener;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
 import github.homepunk.com.universalerrorhandler.handlers.fields.validators.CreditCardValidator;
 import github.homepunk.com.universalerrorhandler.handlers.fields.validators.PhoneValidator;
 import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
 
-import static github.homepunk.com.universalerrorhandler.models.Constants.EMPTY_EMAIL;
-import static github.homepunk.com.universalerrorhandler.models.Constants.EMPTY_PASSWORD;
+import static github.homepunk.com.universalerrorhandler.Constants.EMPTY_EMAIL;
+import static github.homepunk.com.universalerrorhandler.Constants.EMPTY_PASSWORD;
 import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.CREDIT_CARD;
 import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.EMAIL;
 import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.NAME;
@@ -24,8 +24,8 @@ import static github.homepunk.com.universalerrorhandler.models.UniversalFieldTyp
 public class FieldsErrorHandler implements UniversalErrorHandler {
     private static UniversalErrorHandler instance;
 
-    private HandleFailListener currentFailListener;
-    private HandleSuccessListener currentSuccessListener;
+    private ErrorResultListener currentFailListener;
+    private SuccessResultListener currentSuccessListener;
 
     private FieldsErrorHandler() {
     }
@@ -63,7 +63,7 @@ public class FieldsErrorHandler implements UniversalErrorHandler {
             }
             default: {
                 if (currentSuccessListener != null) {
-                    currentSuccessListener.onHandleSuccess();
+                    currentSuccessListener.onSuccess();
                 }
             }
         }
@@ -72,11 +72,11 @@ public class FieldsErrorHandler implements UniversalErrorHandler {
     private void handleError(@UniversalFieldType int targetType, boolean isValid, String errorMessage) {
         if (!isValid) {
             if (currentFailListener != null) {
-                currentFailListener.onHandleFailed(errorMessage);
+                currentFailListener.onErrorResult(errorMessage);
             }
         } else {
             if (currentSuccessListener != null) {
-                currentSuccessListener.onHandleSuccess();
+                currentSuccessListener.onSuccess();
             }
         }
     }
@@ -100,13 +100,13 @@ public class FieldsErrorHandler implements UniversalErrorHandler {
     }
 
     @Override
-    public void setOnHandleFailListener(HandleFailListener handleFailListener) {
-        this.currentFailListener = handleFailListener;
+    public void setOnHandleFailListener(ErrorResultListener errorResultListener) {
+        this.currentFailListener = errorResultListener;
     }
 
     @Override
-    public void setOnHandleSuccessListener(HandleSuccessListener handleSuccessListener) {
-        this.currentSuccessListener = handleSuccessListener;
+    public void setOnHandleSuccessListener(SuccessResultListener successResultListener) {
+        this.currentSuccessListener = successResultListener;
     }
 
     private boolean isNameValid(String name) {

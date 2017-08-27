@@ -1,15 +1,13 @@
-package github.homepunk.com.universalerrorhandler;
+package github.homepunk.com.universalerrorhandler.managers;
 
 import android.widget.EditText;
 
 import com.squareup.okhttp.Response;
 import com.squareup.okhttp.ResponseBody;
 
-import github.homepunk.com.universalerrorhandler.handlers.fields.FieldsHandleManager;
-import github.homepunk.com.universalerrorhandler.handlers.fields.listeneres.HandleFailListener;
-import github.homepunk.com.universalerrorhandler.handlers.fields.listeneres.HandleSuccessListener;
-import github.homepunk.com.universalerrorhandler.handlers.fields.listeneres.FieldsHandleListener;
-import github.homepunk.com.universalerrorhandler.handlers.requests.RequestsHandleManager;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
+import github.homepunk.com.universalerrorhandler.handlers.fields.interfaces.FieldsHandleListener;
 import github.homepunk.com.universalerrorhandler.handlers.requests.listeners.RequestsHandleListener;
 import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
 
@@ -17,8 +15,7 @@ import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
  * Created by homepunk on 25.08.17.
  */
 
-public class HandleManager {
-    private static HandleManager instance;
+public class UniversalHandleManager {
     private static FieldsHandleListener fieldsHandleListener;
     private static RequestsHandleListener requestsHandleListener;
 
@@ -40,17 +37,17 @@ public class HandleManager {
 
     public static FieldsHandleManager target(EditText targetField, @UniversalFieldType final int targetType) {
         FieldsHandleManager fieldsHandleManager = FieldsHandleManager.target(targetField, targetType);
-        fieldsHandleManager.setOnFailListener(new HandleFailListener() {
+        fieldsHandleManager.setOnFailListener(new ErrorResultListener() {
             @Override
-            public void onHandleFailed(String error) {
+            public void onErrorResult(String errorMessage) {
                 if (fieldsHandleListener != null) {
-                    fieldsHandleListener.onFieldHandleResult(targetType, false, error);
+                    fieldsHandleListener.onFieldHandleResult(targetType, false, errorMessage);
                 }
             }
         });
-        fieldsHandleManager.setOnSuccessListener(new HandleSuccessListener() {
+        fieldsHandleManager.setOnSuccessListener(new SuccessResultListener() {
             @Override
-            public void onHandleSuccess() {
+            public void onSuccess() {
                 if (fieldsHandleListener != null) {
                     fieldsHandleListener.onFieldHandleResult(targetType, true, null);
                 }

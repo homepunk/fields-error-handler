@@ -1,4 +1,4 @@
-package github.homepunk.com.universalerrorhandler.handlers.requests;
+package github.homepunk.com.universalerrorhandler.managers;
 
 import android.support.annotation.Nullable;
 
@@ -10,12 +10,15 @@ import com.squareup.okhttp.ResponseBody;
  */
 
 public class RequestsHandleManager {
-
     public RequestsHandleManager(Response targetResponse) {
 
     }
 
     public RequestsHandleManager(ResponseBody targetResponse) {
+
+    }
+
+    public void addRequestErrorCode(int errorCode) {
 
     }
 }

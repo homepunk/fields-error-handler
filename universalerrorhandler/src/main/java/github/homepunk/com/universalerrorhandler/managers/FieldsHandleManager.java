@@ -1,4 +1,4 @@
-package github.homepunk.com.universalerrorhandler.handlers.fields;
+package github.homepunk.com.universalerrorhandler.managers;
 
 import android.text.Editable;
 import android.view.View;
@@ -7,18 +7,19 @@ import android.widget.EditText;
 import java.util.HashMap;
 import java.util.Map;
 
-import github.homepunk.com.universalerrorhandler.handlers.UniversalErrorHandler;
-import github.homepunk.com.universalerrorhandler.handlers.fields.listeneres.HandleFailListener;
-import github.homepunk.com.universalerrorhandler.handlers.fields.listeneres.HandleSuccessListener;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
+import github.homepunk.com.universalerrorhandler.handlers.fields.FieldsErrorHandler;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
 import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
-import github.homepunk.com.universalerrorhandler.models.UniversalAction;
+import github.homepunk.com.universalerrorhandler.models.UniversalFieldAction;
 import github.homepunk.com.universalerrorhandler.wrappers.TextWatcherWrapper;
 
-import static github.homepunk.com.universalerrorhandler.models.UniversalAction.AFTER_TEXT_CHANGE;
-import static github.homepunk.com.universalerrorhandler.models.UniversalAction.BEFORE_TEXT_CHANGE;
-import static github.homepunk.com.universalerrorhandler.models.UniversalAction.ON_CLICK;
-import static github.homepunk.com.universalerrorhandler.models.UniversalAction.ON_FOCUS_MISS;
-import static github.homepunk.com.universalerrorhandler.models.UniversalAction.ON_TEXT_CHANGE;
+import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.AFTER_TEXT_CHANGE;
+import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.BEFORE_TEXT_CHANGE;
+import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.ON_CLICK;
+import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.ON_FOCUS_MISS;
+import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.ON_TEXT_CHANGE;
 
 /**
  * Created by homepunk on 26.08.17.
@@ -30,14 +31,16 @@ public class FieldsHandleManager {
     private static EditText currentTargetField;
     private static Map<Integer, EditText> targetFieldMap;
     private Map<Integer, Integer> targetTypeMap;
-    private Map<Integer, HandleFailListener> targetFailListenerMap;
-    private Map<Integer, HandleSuccessListener> targetSuccessListenerMap;
+    private Map<Integer, String> targetDefaultMaskMap;
+    private Map<Integer, ErrorResultListener> targetFailListenerMap;
+    private Map<Integer, SuccessResultListener> targetSuccessListenerMap;
 
     private UniversalErrorHandler fieldsErrorHandler;
 
     private FieldsHandleManager() {
         targetTypeMap = new HashMap<>();
         targetFieldMap = new HashMap<>();
+        targetDefaultMaskMap = new HashMap<>();
         targetFailListenerMap = new HashMap<>();
         targetSuccessListenerMap = new HashMap<>();
         fieldsErrorHandler = FieldsErrorHandler.getInstance();
@@ -55,7 +58,7 @@ public class FieldsHandleManager {
         return instance;
     }
 
-    public FieldsHandleManager handleOnAction(@UniversalAction int action) {
+    public FieldsHandleManager handleOnAction(@UniversalFieldAction int action) {
         targetTypeMap.put(action, currentTargetType);
 
         if (currentTargetField != null) {
@@ -122,13 +125,22 @@ public class FieldsHandleManager {
         return this;
     }
 
-    public FieldsHandleManager setOnFailListener(HandleFailListener listener) {
+    public FieldsHandleManager setOnFailListener(ErrorResultListener listener) {
         targetFailListenerMap.put(currentTargetType, listener);
         return this;
     }
 
-    public FieldsHandleManager setOnSuccessListener(HandleSuccessListener listener) {
+    public FieldsHandleManager setOnSuccessListener(SuccessResultListener listener) {
         targetSuccessListenerMap.put(currentTargetType, listener);
+        return this;
+    }
+
+    public FieldsHandleManager setDefaultMask(String defaultMask, char substitueSymbol) {
+        targetDefaultMaskMap.put(currentTargetType, defaultMask);
+        return this;
+    }
+
+    public FieldsHandleManager setSuccessCondition(boolean condition) {
         return this;
     }
 
@@ -140,15 +152,15 @@ public class FieldsHandleManager {
     }
 
     private void initTargetListeners(int targetType) {
-        HandleFailListener handleFailListener = targetFailListenerMap.get(targetType);
-        HandleSuccessListener handleSuccessListener = targetSuccessListenerMap.get(targetType);
+        ErrorResultListener errorResultListener = targetFailListenerMap.get(targetType);
+        SuccessResultListener successResultListener = targetSuccessListenerMap.get(targetType);
 
-        if (handleFailListener != null) {
-            fieldsErrorHandler.setOnHandleFailListener(handleFailListener);
+        if (errorResultListener != null) {
+            fieldsErrorHandler.setOnHandleFailListener(errorResultListener);
         }
 
-        if (handleSuccessListener != null) {
-            fieldsErrorHandler.setOnHandleSuccessListener(handleSuccessListener);
+        if (successResultListener != null) {
+            fieldsErrorHandler.setOnHandleSuccessListener(successResultListener);
         }
     }
 }

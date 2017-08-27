@@ -1,4 +1,4 @@
-package github.homepunk.com.universalerrorhandler.models;
+package github.homepunk.com.universalerrorhandler;
 
 /**
  * Created by homepunk on 27.08.17.
