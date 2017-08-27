@@ -28,12 +28,12 @@
         "source": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/homepunk/Documents/libs/github/example/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png",
-        "source": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "/home/homepunk/Documents/libs/github/example/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
         "source": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/homepunk/Documents/libs/github/example/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/home/homepunk/Documents/libs/github/example/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png",

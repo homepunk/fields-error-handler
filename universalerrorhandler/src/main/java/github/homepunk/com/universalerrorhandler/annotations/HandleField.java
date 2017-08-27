@@ -1,12 +1,12 @@
 package github.homepunk.com.universalerrorhandler.annotations;
 
 
-import github.homepunk.com.universalerrorhandler.models.UniversalTargetType;
+import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
 
 /**
  * Created by homepunk on 25.08.17.
  */
 
 public @interface HandleField {
-    @UniversalTargetType int value();
+    @UniversalFieldType int value();
 }

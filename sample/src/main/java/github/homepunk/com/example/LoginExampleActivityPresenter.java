@@ -5,8 +5,6 @@ import com.squareup.okhttp.internal.http.RealResponseBody;
 
 import github.homepunk.com.example.interfaces.LoginExamplePresenter;
 import github.homepunk.com.example.interfaces.LoginExampleView;
-import github.homepunk.com.universalerrorhandler.ErrorHandleManager;
-import io.reactivex.functions.Action;
 
 /**
  * Created by homepunk on 25.08.17.
@@ -28,11 +26,5 @@ class LoginExampleActivityPresenter implements LoginExamplePresenter {
     @Override
     public void onLoginClick() {
         RealResponseBody responseBody = new RealResponseBody(null, null);
-        ErrorHandleManager.target(responseBody).doOnHandleFail(new Action() {
-            @Override
-            public void run() throws Exception {
-
-            }
-        });
     }
 }

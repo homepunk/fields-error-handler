@@ -11,14 +11,13 @@ import android.widget.Toast;
 
 import github.homepunk.com.example.interfaces.LoginExamplePresenter;
 import github.homepunk.com.example.interfaces.LoginExampleView;
-import github.homepunk.com.universalerrorhandler.ErrorHandleManager;
-import github.homepunk.com.universalerrorhandler.models.UniversalTargetType;
-import io.reactivex.functions.Action;
+import github.homepunk.com.universalerrorhandler.HandleManager;
+import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
 
 import static github.homepunk.com.universalerrorhandler.models.UniversalAction.ON_FOCUS_MISS;
 import static github.homepunk.com.universalerrorhandler.models.UniversalAction.ON_TEXT_CHANGE;
-import static github.homepunk.com.universalerrorhandler.models.UniversalTargetType.EMAIL;
-import static github.homepunk.com.universalerrorhandler.models.UniversalTargetType.PASSWORD;
+import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.EMAIL;
+import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.PASSWORD;
 
 public class LoginExampleActivity extends AppCompatActivity implements LoginExampleView {
     EditText emailEditText;
@@ -34,27 +33,26 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         setContentView(R.layout.activity_login_example);
         init();
 
-        ErrorHandleManager.target(emailEditText, EMAIL).handleOnAction(ON_FOCUS_MISS)
-                .doOnHandleSuccess(new Action() {
-                    @Override
-                    public void run() throws Exception {
-                        emailInputLayout.setError("");
+        HandleManager.setFieldsHandleListener((targetType, isSuccess, error) -> {
+            if (!isSuccess) {
+                switch (targetType) {
+                    case EMAIL: {
+                        showError(error);
+                        break;
                     }
-                })
-                .setOnHandleFailListener(this);
-
-        ErrorHandleManager.target(emailEditText, EMAIL)
-                .replaceSuccessClause(emailEditText.getText().toString().length() > 4)
-                .setOnHandleFailListener(this);
-
-        ErrorHandleManager.target(passwordEditText, PASSWORD).handleOnAction(ON_TEXT_CHANGE)
-                .doOnHandleSuccess(new Action() {
-                    @Override
-                    public void run() throws Exception {
-                        passwordInputLayout.setError("");
+                    case PASSWORD: {
+                        showError(error);
+                        break;
                     }
-                })
-                .setOnHandleFailListener(this);
+                }
+            }
+        });
+        HandleManager.setRequestsHandleListener((requestCode, isSuccess, error) -> {});
+
+        HandleManager.target(emailEditText, EMAIL).handleOnAction(ON_FOCUS_MISS);
+        HandleManager.target(passwordEditText, PASSWORD).handleOnAction(ON_TEXT_CHANGE)
+                .setOnFailListener(failMessage -> passwordInputLayout.setError(failMessage))
+                .setOnSuccessListener(() -> passwordInputLayout.setError(""));
     }
 
     @Override
@@ -63,8 +61,7 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         super.onDestroy();
     }
 
-    @Override
-    public void onHandleFailed(@UniversalTargetType int errorType) {
+    public void handleErrors(@UniversalFieldType int errorType) {
         switch (errorType) {
             case EMAIL: {
                 emailInputLayout.setError("Email can't be empty");
