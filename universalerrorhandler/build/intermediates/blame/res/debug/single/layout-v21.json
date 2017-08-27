@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/homepunk/Documents/libs/github/example/universalerrorhandler/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/homepunk/.android/build-cache/5541c0246084dea46590488fe941a29b7da4406f/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/homepunk/Documents/libs/github/example/universalerrorhandler/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/homepunk/.android/build-cache/5541c0246084dea46590488fe941a29b7da4406f/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/homepunk/Documents/libs/github/example/universalerrorhandler/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/homepunk/.android/build-cache/5541c0246084dea46590488fe941a29b7da4406f/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/homepunk/Documents/libs/github/example/universalerrorhandler/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/homepunk/.android/build-cache/5541c0246084dea46590488fe941a29b7da4406f/output/res/layout-v21/notification_action.xml"
+    }
+]
