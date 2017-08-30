@@ -1,1 +1,1 @@
-include ':sample', ':universalerrorhandler'
+include ':sample', ':universalerrorhandler', ':universalerrorhandler-annotations', ':universalerrorhandler-processors'

@@ -2,20 +2,17 @@ package github.homepunk.com.universalerrorhandler.handlers.fields;
 
 import android.util.Patterns;
 
-import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
-import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
-import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
+import com.homepunk.github.models.UniversalFieldType;
+
 import github.homepunk.com.universalerrorhandler.handlers.fields.validators.CreditCardValidator;
 import github.homepunk.com.universalerrorhandler.handlers.fields.validators.PhoneValidator;
-import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
 
+import static com.homepunk.github.models.UniversalFieldType.*;
 import static github.homepunk.com.universalerrorhandler.Constants.EMPTY_EMAIL;
 import static github.homepunk.com.universalerrorhandler.Constants.EMPTY_PASSWORD;
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.CREDIT_CARD;
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.EMAIL;
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.NAME;
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.PASSWORD;
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldType.PHONE;
 
 /**
  * Created by homepunk on 24.08.17.

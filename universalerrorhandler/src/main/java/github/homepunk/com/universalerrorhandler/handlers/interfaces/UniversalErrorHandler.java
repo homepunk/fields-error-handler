@@ -1,7 +1,7 @@
 package github.homepunk.com.universalerrorhandler.handlers.interfaces;
 
 
-import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
+import com.homepunk.github.models.UniversalFieldType;
 
 /**
  * Main interface which provides methods for error handling

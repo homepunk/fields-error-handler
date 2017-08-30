@@ -2,14 +2,14 @@ package github.homepunk.com.universalerrorhandler.managers;
 
 import android.widget.EditText;
 
+import com.homepunk.github.models.UniversalFieldType;
 import com.squareup.okhttp.Response;
 import com.squareup.okhttp.ResponseBody;
 
+import github.homepunk.com.universalerrorhandler.handlers.fields.interfaces.FieldsHandleListener;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
-import github.homepunk.com.universalerrorhandler.handlers.fields.interfaces.FieldsHandleListener;
 import github.homepunk.com.universalerrorhandler.handlers.requests.listeners.RequestsHandleListener;
-import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
 
 /**
  * Created by homepunk on 25.08.17.

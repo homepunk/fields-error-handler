@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/homepunk/Documents/libs/github/example/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+        "outputFile": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 426
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 652
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -92,7 +92,7 @@
                     "endOffset": 891
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -113,7 +113,7 @@
                     "endOffset": 1135
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/9ba03fab4c9cbcbb8ddfcf61fecde467e246c497/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\9c23e43c8f902291d66c358565fb2ac465d2f634\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -133,7 +133,7 @@
                     "endOffset": 1228
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -152,7 +152,7 @@
                     "endOffset": 1325
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/9ba03fab4c9cbcbb8ddfcf61fecde467e246c497/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\9c23e43c8f902291d66c358565fb2ac465d2f634\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

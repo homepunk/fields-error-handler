@@ -4,22 +4,24 @@ import android.text.Editable;
 import android.view.View;
 import android.widget.EditText;
 
+import com.homepunk.github.models.UniversalFieldAction;
+import com.homepunk.github.models.UniversalFieldType;
+
 import java.util.HashMap;
 import java.util.Map;
 
-import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
 import github.homepunk.com.universalerrorhandler.handlers.fields.FieldsErrorHandler;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
-import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
-import github.homepunk.com.universalerrorhandler.models.UniversalFieldAction;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
 import github.homepunk.com.universalerrorhandler.wrappers.TextWatcherWrapper;
 
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.AFTER_TEXT_CHANGE;
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.BEFORE_TEXT_CHANGE;
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.ON_CLICK;
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.ON_FOCUS_MISS;
-import static github.homepunk.com.universalerrorhandler.models.UniversalFieldAction.ON_TEXT_CHANGE;
+import static com.homepunk.github.models.UniversalFieldAction.AFTER_TEXT_CHANGE;
+import static com.homepunk.github.models.UniversalFieldAction.BEFORE_TEXT_CHANGE;
+import static com.homepunk.github.models.UniversalFieldAction.ON_CLICK;
+import static com.homepunk.github.models.UniversalFieldAction.ON_FOCUS_MISS;
+import static com.homepunk.github.models.UniversalFieldAction.ON_TEXT_CHANGE;
+
 
 /**
  * Created by homepunk on 26.08.17.

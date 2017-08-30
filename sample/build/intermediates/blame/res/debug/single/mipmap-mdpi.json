@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/homepunk/Documents/libs/github/example/sample/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
-        "source": "/home/homepunk/Documents/libs/github/example/sample/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/homepunk/Documents/libs/github/example/sample/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/home/homepunk/Documents/libs/github/example/sample/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     }
 ]

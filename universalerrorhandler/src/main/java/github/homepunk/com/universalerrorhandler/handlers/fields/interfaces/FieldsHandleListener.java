@@ -1,6 +1,7 @@
 package github.homepunk.com.universalerrorhandler.handlers.fields.interfaces;
 
-import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
+
+import com.homepunk.github.models.UniversalFieldType;
 
 /**
  * Created by homepunk on 27.08.17.

@@ -1,10 +1,11 @@
 package github.homepunk.com.universalerrorhandler.handlers.requests;
 
 
-import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
+import com.homepunk.github.models.UniversalFieldType;
+
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
-import github.homepunk.com.universalerrorhandler.models.UniversalFieldType;
+import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
 
 /**
  * Created by homepunk on 25.08.17.

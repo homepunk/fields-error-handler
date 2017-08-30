@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/homepunk/Documents/libs/github/example/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+        "outputFile": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/18de1740352e26c10f671264e74f92b7761ef9c5/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\066ec503282b2d7076ba260650613dcbfedaef4e\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -88,7 +88,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "/home/homepunk/.android/build-cache/9ba03fab4c9cbcbb8ddfcf61fecde467e246c497/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\Homepunk\\.android\\build-cache\\9c23e43c8f902291d66c358565fb2ac465d2f634\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
