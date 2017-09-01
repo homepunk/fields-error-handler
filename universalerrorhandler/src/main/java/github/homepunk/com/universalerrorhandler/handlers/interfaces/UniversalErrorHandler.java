@@ -17,7 +17,7 @@ public interface UniversalErrorHandler {
      * @param targetType UniversalFieldType.NAME, UniversalFieldType.EMAIL, UniversalFieldType.NAME.PASSWORD,
      *                   UniversalFieldType.PHONE, UniversalFieldType.CUSTOM, UniversalFieldType.CREDIT_CARD
      */
-    void handle(@UniversalFieldType int targetType, String target);
+    void handle(@UniversalFieldType String targetType, String target);
 
     /**
      * Plain text validation
@@ -27,7 +27,7 @@ public interface UniversalErrorHandler {
      *                  UniversalFieldType.PHONE, UniversalFieldType.CUSTOM, UniversalFieldType.CREDIT_CARD
      * @return result of validating @target
      */
-    boolean isValid(@UniversalFieldType int errorType, String target);
+    boolean isValid(@UniversalFieldType String errorType, String target);
 
     /**
      * onFieldHandleResult method would be called every time when validation on handleOnAction fails

@@ -29,13 +29,13 @@ import static com.homepunk.github.models.UniversalFieldAction.ON_TEXT_CHANGE;
 
 public class FieldsHandleManager {
     private static FieldsHandleManager instance;
-    private static int currentTargetType;
+    private static String currentTargetType;
     private static EditText currentTargetField;
     private static Map<Integer, EditText> targetFieldMap;
-    private Map<Integer, Integer> targetTypeMap;
-    private Map<Integer, String> targetDefaultMaskMap;
-    private Map<Integer, ErrorResultListener> targetFailListenerMap;
-    private Map<Integer, SuccessResultListener> targetSuccessListenerMap;
+    private Map<String, String> targetTypeMap;
+    private Map<String, String> targetDefaultMaskMap;
+    private Map<String, ErrorResultListener> targetFailListenerMap;
+    private Map<String, SuccessResultListener> targetSuccessListenerMap;
 
     private UniversalErrorHandler fieldsErrorHandler;
 
@@ -48,7 +48,7 @@ public class FieldsHandleManager {
         fieldsErrorHandler = FieldsErrorHandler.getInstance();
     }
 
-    static FieldsHandleManager target(EditText targetField, @UniversalFieldType int targetType) {
+    static FieldsHandleManager target(EditText targetField, @UniversalFieldType String targetType) {
         if (instance == null) {
             instance = new FieldsHandleManager();
         }
@@ -60,7 +60,7 @@ public class FieldsHandleManager {
         return instance;
     }
 
-    public FieldsHandleManager handleOnAction(@UniversalFieldAction int action) {
+    public FieldsHandleManager handleOnAction(@UniversalFieldAction String action) {
         targetTypeMap.put(action, currentTargetType);
 
         if (currentTargetField != null) {
@@ -69,7 +69,7 @@ public class FieldsHandleManager {
                     currentTargetField.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            int targetType = targetTypeMap.get(ON_CLICK);
+                            String targetType = targetTypeMap.get(ON_CLICK);
                             EditText targetField = targetFieldMap.get(view.hashCode());
 
                             handle(targetField.getText().toString(), targetType);
@@ -81,7 +81,7 @@ public class FieldsHandleManager {
                     currentTargetField.addTextChangedListener(new TextWatcherWrapper() {
                         @Override
                         public void afterTextChanged(Editable target) {
-                            int targetType = targetTypeMap.get(AFTER_TEXT_CHANGE);
+                            String targetType = targetTypeMap.get(AFTER_TEXT_CHANGE);
 
                             handle(target.toString(), targetType);
                         }
@@ -92,7 +92,7 @@ public class FieldsHandleManager {
                     currentTargetField.addTextChangedListener(new TextWatcherWrapper() {
                         @Override
                         public void onTextChanged(CharSequence targetCharSequence, int i, int i1, int i2) {
-                            int targetType = targetTypeMap.get(ON_TEXT_CHANGE);
+                            String targetType = targetTypeMap.get(ON_TEXT_CHANGE);
                             handle(targetCharSequence.toString(), targetType);
                         }
                     });
@@ -102,7 +102,7 @@ public class FieldsHandleManager {
                     currentTargetField.addTextChangedListener(new TextWatcherWrapper() {
                         @Override
                         public void beforeTextChanged(CharSequence targetCharSequence, int i, int i1, int i2) {
-                            int targetType = targetTypeMap.get(BEFORE_TEXT_CHANGE);
+                            String targetType = targetTypeMap.get(BEFORE_TEXT_CHANGE);
                             handle(targetCharSequence.toString(), targetType);
                         }
                     });
@@ -113,7 +113,7 @@ public class FieldsHandleManager {
                         @Override
                         public void onFocusChange(View view, boolean hasFocus) {
                             if (!hasFocus) {
-                                int targetType = targetTypeMap.get(ON_FOCUS_MISS);
+                                String targetType = targetTypeMap.get(ON_FOCUS_MISS);
                                 EditText targetField = targetFieldMap.get(view.hashCode());
                                 handle(targetField.getText().toString(), targetType);
                             }
@@ -146,14 +146,14 @@ public class FieldsHandleManager {
         return this;
     }
 
-    private void handle(String target, @UniversalFieldType int targetType) {
+    private void handle(String target, @UniversalFieldType String targetType) {
         initTargetListeners(targetType);
         if (target.length() > 0) {
             fieldsErrorHandler.handle(targetType, target);
         }
     }
 
-    private void initTargetListeners(int targetType) {
+    private void initTargetListeners(String targetType) {
         ErrorResultListener errorResultListener = targetFailListenerMap.get(targetType);
         SuccessResultListener successResultListener = targetSuccessListenerMap.get(targetType);
 

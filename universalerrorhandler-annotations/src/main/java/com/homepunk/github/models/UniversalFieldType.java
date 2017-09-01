@@ -1,11 +1,10 @@
 package com.homepunk.github.models;
 
-import android.support.annotation.IntDef;
+import android.support.annotation.StringDef;
 
 import java.lang.annotation.Retention;
 
 import static com.homepunk.github.models.UniversalFieldType.CREDIT_CARD;
-import static com.homepunk.github.models.UniversalFieldType.CUSTOM;
 import static com.homepunk.github.models.UniversalFieldType.EMAIL;
 import static com.homepunk.github.models.UniversalFieldType.NAME;
 import static com.homepunk.github.models.UniversalFieldType.PASSWORD;
@@ -17,12 +16,11 @@ import static java.lang.annotation.RetentionPolicy.SOURCE;
  */
 
 @Retention(SOURCE)
-@IntDef({NAME, EMAIL, PHONE, CUSTOM, PASSWORD, CREDIT_CARD})
+@StringDef({NAME, EMAIL, PHONE, PASSWORD, CREDIT_CARD})
 public @interface UniversalFieldType {
-    int NAME = 1;
-    int EMAIL = 2;
-    int PHONE = 3;
-    int CUSTOM = 4;
-    int PASSWORD = 5;
-    int CREDIT_CARD = 6;
+    String NAME = "Name";
+    String EMAIL = "Email";
+    String PHONE = "Phone";
+    String PASSWORD = "Password";
+    String CREDIT_CARD = "CreditCard";
 }

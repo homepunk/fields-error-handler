@@ -28,7 +28,7 @@
 
         <meta-data
             android:name="android.support.VERSION"
-            android:value="26.0.1" />
+            android:value="26.0.2" />
     </application>
 
 </manifest>

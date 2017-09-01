@@ -13,12 +13,12 @@ import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalEr
 
 public class RequestsErrorHandler implements UniversalErrorHandler {
     @Override
-    public void handle(@UniversalFieldType int targetType, String target) {
+    public void handle(@UniversalFieldType String targetType, String target) {
 
     }
 
     @Override
-    public boolean isValid(@UniversalFieldType int errorType, String target) {
+    public boolean isValid(@UniversalFieldType String errorType, String target) {
         return false;
     }
 

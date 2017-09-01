@@ -36,7 +36,7 @@ public class FieldsErrorHandler implements UniversalErrorHandler {
     }
 
     @Override
-    public void handle(@UniversalFieldType int targetType, String target) {
+    public void handle(@UniversalFieldType String targetType, String target) {
         final String errorMessage = null;
 
         switch (targetType) {
@@ -66,7 +66,7 @@ public class FieldsErrorHandler implements UniversalErrorHandler {
         }
     }
 
-    private void handleError(@UniversalFieldType int targetType, boolean isValid, String errorMessage) {
+    private void handleError(@UniversalFieldType String targetType, boolean isValid, String errorMessage) {
         if (!isValid) {
             if (currentFailListener != null) {
                 currentFailListener.onErrorResult(errorMessage);
@@ -79,7 +79,7 @@ public class FieldsErrorHandler implements UniversalErrorHandler {
     }
 
     @Override
-    public boolean isValid(@UniversalFieldType int errorType, String target) {
+    public boolean isValid(@UniversalFieldType String errorType, String target) {
         switch (errorType) {
             case NAME: {
                 return isNameValid(target);

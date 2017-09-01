@@ -10,17 +10,23 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.homepunk.github.HandleField;
+import com.homepunk.github.HandleOnAction;
+import com.homepunk.github.models.UniversalFieldType;
 
 import github.homepunk.com.example.interfaces.LoginExamplePresenter;
 import github.homepunk.com.example.interfaces.LoginExampleView;
+import github.homepunk.com.universalerrorhandler.handlers.fields.interfaces.FieldsHandleListener;
+import github.homepunk.com.universalerrorhandler.managers.UniversalHandleManager;
 
+import static com.homepunk.github.models.UniversalFieldAction.ON_FOCUS_MISS;
 import static com.homepunk.github.models.UniversalFieldType.EMAIL;
 import static com.homepunk.github.models.UniversalFieldType.PASSWORD;
 
 public class LoginExampleActivity extends AppCompatActivity implements LoginExampleView {
     @HandleField(EMAIL)
+    @HandleOnAction(ON_FOCUS_MISS)
     EditText emailEditText;
-    @HandleField(PASSWORD)
+    @HandleField(PASSWORD, ON_FOCUS_MISS)
     EditText passwordEditText;
     TextInputLayout emailInputLayout;
     TextInputLayout passwordInputLayout;
@@ -32,17 +38,17 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_example);
         init();
-
-//        UniversalHandleManager.setFieldsHandleListener((fieldType, isSuccess, error) -> {
-//            if (!isSuccess) {
-//                handleFieldError(fieldType);
-//            } else {
-//                handleFieldSuccess(fieldType);
-//            }
-//        });
-
-//        UniversalHandleManager.target(emailEditText, UniversalFieldType.EMAIL).handleOnAction(ON_FOCUS_MISS);
-//        UniversalHandleManager.target(passwordEditText, PASSWORD).handleOnAction(ON_TEXT_CHANGE);
+        UniversalHandleManager.bind(this);
+        UniversalHandleManager.setFieldsHandleListener(new FieldsHandleListener() {
+            @Override
+            public void onFieldHandleResult(@UniversalFieldType String targetType, boolean isSuccess, String error) {
+                if (isSuccess) {
+                    handleFieldSuccess(targetType);
+                } else {
+                    handleFieldError(targetType);
+                }
+            }
+        });
     }
 
     @Override
@@ -51,7 +57,7 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         super.onDestroy();
     }
 
-    public void handleFieldError(int errorType) {
+    public void handleFieldError(String errorType) {
         switch (errorType) {
             case EMAIL: {
                 emailInputLayout.setError("Email can't be empty");
@@ -64,7 +70,7 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         }
     }
 
-    private void handleFieldSuccess(int fieldType) {
+    private void handleFieldSuccess(String fieldType) {
         switch (fieldType) {
             case EMAIL: {
                 emailInputLayout.setError("");

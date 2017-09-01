@@ -15,5 +15,5 @@ import static java.lang.annotation.RetentionPolicy.SOURCE;
 @Retention(SOURCE)
 @Target(FIELD)
 public @interface HandleOnAction {
-    @UniversalFieldAction int value();
+    @UniversalFieldAction String value();
 }
