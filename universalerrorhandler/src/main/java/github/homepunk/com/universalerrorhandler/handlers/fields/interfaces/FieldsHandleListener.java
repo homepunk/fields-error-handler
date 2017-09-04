@@ -8,5 +8,5 @@ import com.homepunk.github.models.UniversalFieldType;
  */
 
 public interface FieldsHandleListener {
-    void onFieldHandleResult(@UniversalFieldType String targetType, boolean isSuccess, String error);
+    void onFieldHandleResult(@UniversalFieldType int targetType, boolean isSuccess, String error);
 }

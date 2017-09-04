@@ -10,7 +10,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.homepunk.github.HandleField;
-import com.homepunk.github.HandleOnAction;
 import com.homepunk.github.models.UniversalFieldType;
 
 import github.homepunk.com.example.interfaces.LoginExamplePresenter;
@@ -19,15 +18,18 @@ import github.homepunk.com.universalerrorhandler.handlers.fields.interfaces.Fiel
 import github.homepunk.com.universalerrorhandler.managers.UniversalHandleManager;
 
 import static com.homepunk.github.models.UniversalFieldAction.ON_FOCUS_MISS;
+import static com.homepunk.github.models.UniversalFieldAction.ON_TEXT_CHANGE;
 import static com.homepunk.github.models.UniversalFieldType.EMAIL;
+import static com.homepunk.github.models.UniversalFieldType.NAME;
 import static com.homepunk.github.models.UniversalFieldType.PASSWORD;
 
 public class LoginExampleActivity extends AppCompatActivity implements LoginExampleView {
-    @HandleField(EMAIL)
-    @HandleOnAction(ON_FOCUS_MISS)
-    EditText emailEditText;
-    @HandleField(PASSWORD, ON_FOCUS_MISS)
+    @HandleField(value = PASSWORD, action = ON_TEXT_CHANGE)
     EditText passwordEditText;
+    @HandleField(value = EMAIL, action = ON_FOCUS_MISS)
+    EditText emailEditText;
+    @HandleField(value = NAME, action = ON_TEXT_CHANGE)
+    EditText nameEditText;
     TextInputLayout emailInputLayout;
     TextInputLayout passwordInputLayout;
 
@@ -41,7 +43,7 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         UniversalHandleManager.bind(this);
         UniversalHandleManager.setFieldsHandleListener(new FieldsHandleListener() {
             @Override
-            public void onFieldHandleResult(@UniversalFieldType String targetType, boolean isSuccess, String error) {
+            public void onFieldHandleResult(@UniversalFieldType int targetType, boolean isSuccess, String error) {
                 if (isSuccess) {
                     handleFieldSuccess(targetType);
                 } else {
@@ -57,7 +59,7 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         super.onDestroy();
     }
 
-    public void handleFieldError(String errorType) {
+    public void handleFieldError(int errorType) {
         switch (errorType) {
             case EMAIL: {
                 emailInputLayout.setError("Email can't be empty");
@@ -70,7 +72,7 @@ public class LoginExampleActivity extends AppCompatActivity implements LoginExam
         }
     }
 
-    private void handleFieldSuccess(String fieldType) {
+    private void handleFieldSuccess(int fieldType) {
         switch (fieldType) {
             case EMAIL: {
                 emailInputLayout.setError("");

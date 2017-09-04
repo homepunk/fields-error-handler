@@ -1,8 +1,11 @@
 package com.homepunk.github;
 
 import com.google.auto.service.AutoService;
-import com.homepunk.github.visitors.HandleFieldCodeGenerator;
+import com.homepunk.github.visitors.HandleFieldVisitor;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 import javax.annotation.processing.AbstractProcessor;
@@ -21,12 +24,15 @@ import static javax.lang.model.SourceVersion.RELEASE_7;
 @SupportedAnnotationTypes("com.homepunk.github.HandleField")
 @SupportedSourceVersion(RELEASE_7)
 public class HandleFieldProcessor extends AbstractProcessor {
-    private HandleFieldCodeGenerator codeGenerator;
+    private Map<TypeElement, HandleFieldVisitor> handleFieldVisitors;
+    private Set<TypeElement> parents;
     private Messager messager;
 
     @Override
     public synchronized void init(ProcessingEnvironment processingEnvironment) {
         super.init(processingEnvironment);
+        parents = new HashSet<>();
+        handleFieldVisitors = new HashMap<>();
         messager = processingEnvironment.getMessager();
     }
 
@@ -35,25 +41,27 @@ public class HandleFieldProcessor extends AbstractProcessor {
             return false;
         }
 
-        final Set<? extends Element> handleFieldElements = roundEnvironment.getElementsAnnotatedWith(HandleField.class);
-        final Set<? extends Element> handleOnActionElements = roundEnvironment.getElementsAnnotatedWith(HandleOnAction.class);
-
+        final Set<? extends Element> annotatedElements = roundEnvironment.getElementsAnnotatedWith(HandleField.class);
         //  Every element is our annotated field
-        for (final Element element : handleFieldElements) {
-            //  Enclosing element is activity, where our field is located, TypeElement tells us that it's a class
-            final TypeElement object = (TypeElement) element.getEnclosingElement();
-            if (handleOnActionElements.contains(element)) {
-                processElement(element);
-            }
+        for (final Element element : annotatedElements) {
+            final TypeElement parent = (TypeElement) element.getEnclosingElement();
+            processNewVisitors(parent);
+            element.accept(handleFieldVisitors.get(parent), null);
         }
 
+        for (TypeElement parent : parents) {
+            handleFieldVisitors.get(parent).generateJavaSource();
+        }
 
         return true;
     }
 
-    private void processElement(Element element) {
-        codeGenerator = new HandleFieldCodeGenerator(processingEnv, element);
-        element.accept(codeGenerator, null);
-        codeGenerator.generateJavaSource();
+    private void processNewVisitors(TypeElement parent) {
+        HandleFieldVisitor handleFieldVisitor;
+
+        if (parents.add(parent)) {
+            handleFieldVisitor = new HandleFieldVisitor(processingEnv, parent);
+            handleFieldVisitors.put(parent, handleFieldVisitor);
+        }
     }
 }

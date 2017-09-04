@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml
@@ -13,8 +13,20 @@ ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src
 	android:versionCode
 		INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:8:22-69
 application
-ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:10:5-30:19
 MERGED from [Universal-Error-Handler:universalerrorhandler:unspecified] C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Homepunk\.android\build-cache\70ef53769d78e86216eaa92c80e30a26b7643c78\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.0.2] C:\Users\Homepunk\.android\build-cache\56ba277f3091d16f5dd77249b2c690fef38657ca\output\AndroidManifest.xml:25:5-29:19
@@ -30,35 +42,41 @@ MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\Homepunk\.andr
 MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\Homepunk\.android\build-cache\3e8786f3bc17962f63dd91c12ced2196856e23de\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.0.2] C:\Users\Homepunk\.android\build-cache\73a1a01f1dea480364da05bb5fcdaa577693429d\output\AndroidManifest.xml:25:5-29:19
 	android:label
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:13:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:15:9-35
 	android:roundIcon
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:14:9-54
 	android:allowBackup
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:12:9-43
 	android:theme
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:16:9-40
 activity#github.homepunk.com.example.LoginExampleActivity
-ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:17:9-26:20
 	android:label
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:19:13-45
 	android:theme
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:15:13-56
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:13:13-49
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:18:13-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:24:27-74
+activity#github.homepunk.com.example.RegistrationExampleActivity
+ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:27:9-29:84
+	android:label
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:28:13-56
 uses-sdk
 INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [Universal-Error-Handler:universalerrorhandler:unspecified] C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41

@@ -1,6 +1,6 @@
 package com.homepunk.github.models;
 
-import android.support.annotation.StringDef;
+import android.support.annotation.IntDef;
 
 import java.lang.annotation.Retention;
 
@@ -16,11 +16,11 @@ import static java.lang.annotation.RetentionPolicy.SOURCE;
  */
 
 @Retention(SOURCE)
-@StringDef({NAME, EMAIL, PHONE, PASSWORD, CREDIT_CARD})
+@IntDef({NAME, EMAIL, PHONE, PASSWORD, CREDIT_CARD})
 public @interface UniversalFieldType {
-    String NAME = "Name";
-    String EMAIL = "Email";
-    String PHONE = "Phone";
-    String PASSWORD = "Password";
-    String CREDIT_CARD = "CreditCard";
+    int NAME = 1;
+    int EMAIL = 2;
+    int PHONE = 3;
+    int PASSWORD = 4;
+    int CREDIT_CARD = 5;
 }

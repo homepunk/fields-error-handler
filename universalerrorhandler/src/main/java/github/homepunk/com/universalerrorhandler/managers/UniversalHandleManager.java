@@ -32,7 +32,7 @@ public abstract class UniversalHandleManager {
 
         try {
             constructor.newInstance(target);
-            Log.i(UniversalHandleManager.class.getSimpleName(), "CONSTRUCTOR CREATED");
+//            Log.i(UniversalHandleManager.class.getSimpleName(), "CONSTRUCTOR CREATED");
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
@@ -60,7 +60,7 @@ public abstract class UniversalHandleManager {
         return bindingConstructor;
     }
 
-    public static FieldsHandleManager target(EditText targetField, @UniversalFieldType final String targetType) {
+    public static FieldsHandleManager target(EditText targetField, @UniversalFieldType final int targetType) {
         FieldsHandleManager fieldsHandleManager = FieldsHandleManager.target(targetField, targetType);
         fieldsHandleManager.setOnFailListener(new ErrorResultListener() {
             @Override

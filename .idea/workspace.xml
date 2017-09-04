@@ -12,21 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a48d6a80-0611-491c-ac7b-ff8e66fcda63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldCodeGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/BaseFieldHandler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_26_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldVisitor.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/RegistrationExampleActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/layout/activity_registration_example.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldCodeGenerator.java" afterPath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldVisitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -37,421 +25,51 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-26.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-26.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-debug.aar" afterPath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-release.aar" afterPath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build.gradle" afterPath="$PROJECT_DIR$/sample/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-az.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-az.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-be.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-be.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-bn.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-bn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-bs.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-bs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-en-rAU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-et.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-et.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-eu.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-eu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-gl.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-gl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-gu.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-gu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hy.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-hy.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-is.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-is.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ka.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ka.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-kk.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-kk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-km.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-km.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-kn.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-kn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ky.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ky.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-land.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-lo.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-lo.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-mk.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-mk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ml.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ml.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-mn.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-mn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-mr.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-mr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ms.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-my.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-my.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ne.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ne.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-night-v8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pa.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-port.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-si.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-si.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sq.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sq.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ta.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ta.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-te.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-te.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ur.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-ur.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-uz.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-uz.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v13.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v16.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v16.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v18.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v24.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v24.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v25.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v25.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v26.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-v26.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values-zu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/compat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreui/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreutils/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/fragment/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/mediacompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/transition/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/transition/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v4/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/github/homepunk/com/example/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/github/homepunk/com/example/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/github/homepunk/com/universalerrorhandler/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/github/homepunk/com/universalerrorhandler/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/anim-v21.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/anim-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/animator-v21.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/animator-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/color-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-anydpi-v21.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-anydpi-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-v23.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout-v16.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout-v16.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout-v21.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout-v26.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout-v26.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/sample/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/sample/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/sample/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/sample/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/sample.iml" afterPath="$PROJECT_DIR$/sample/sample.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/sample/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java" afterPath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/build.gradle" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/sample/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleField.java" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleOnAction.java" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleOnAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldAction.java" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldType.java" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-processors/build.gradle" afterPath="$PROJECT_DIR$/universalerrorhandler-processors/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/HandleFieldProcessor.java" afterPath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/HandleFieldProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build.gradle" afterPath="$PROJECT_DIR$/universalerrorhandler/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-az.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-az.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-b+sr+Latn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-be.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-be.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-bn.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-bn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-bs.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-bs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-en-rAU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-en-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-et.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-et.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-eu.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-eu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-gl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-gl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-gu.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-gu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-h720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hy.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-hy.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-is.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-is.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ka.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ka.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-kk.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-kk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-km.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-km.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-kn.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-kn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ky.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ky.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-land.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-large-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ldltr-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-lo.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-lo.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-mk.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-mk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ml.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ml.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-mn.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-mn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-mr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-mr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ms.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-my.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-my.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ne.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ne.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-night-v8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pa.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-port.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-si.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-si.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sq.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sq.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ta.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ta.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-te.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-te.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ur.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-ur.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-uz.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-uz.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v13.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v16.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v16.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v18.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v24.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v24.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v25.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v25.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v26.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v26.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-xlarge-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-zu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/anim.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-hdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-mdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xxxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-v23.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout-v16.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout-v16.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout-v26.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout-v26.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-az.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-az.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-be.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-be.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-bn.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-bn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-bs.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-bs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-en-rAU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-et.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-et.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-eu.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-eu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-gl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-gl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-gu.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-gu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hy.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-hy.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-is.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-is.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ka.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ka.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-kk.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-kk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-km.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-km.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-kn.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-kn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ky.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ky.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-land.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-lo.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-lo.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-mk.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-mk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ml.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ml.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-mn.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-mn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-mr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-mr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ms.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-my.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-my.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ne.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ne.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-night-v8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pa.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-port.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-si.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-si.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sq.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sq.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ta.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ta.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-te.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-te.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ur.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-ur.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-uz.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-uz.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v13.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v16.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v16.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v18.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v24.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v24.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v25.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v25.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v26.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v26.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-zu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-v23.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout-v16.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout-v16.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout-v26.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout-v26.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/interfaces/FieldsHandleListener.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/interfaces/FieldsHandleListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsErrorHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsErrorHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/universalerrorhandler.iml" afterPath="$PROJECT_DIR$/universalerrorhandler/universalerrorhandler.iml" />
     </list>
     <ignored path="Universal-Error-Handler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -484,82 +102,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HandleFieldCodeGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldCodeGenerator.java">
+      <file leaf-file-name="HandleFieldVisitor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1661">
-              <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginExampleActivity_EmailFieldHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_EmailFieldHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseFieldHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/BaseFieldHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FieldsErrorHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="292">
+              <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniversalHandleManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java">
+      <file leaf-file-name="CodeBlock.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/499341a875fe72e8fcf4ba856ba15f498d348e38/javapoet-1.8.0-sources.jar!/com/squareup/javapoet/CodeBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElementScanner7.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/lang/model/util/ElementScanner7.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2936#3235#0" expanded="true" />
-                <element signature="e#3234#3235#0" expanded="true" />
-                <element signature="e#3287#3556#0" expanded="true" />
-                <element signature="e#3555#3556#0" expanded="true" />
-                <element signature="e#3675#3676#0" expanded="true" />
-                <element signature="e#3702#3703#0" expanded="true" />
-                <element signature="e#3781#3782#0" expanded="true" />
-                <element signature="e#3808#3809#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginExampleActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElementScanner6.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/lang/model/util/ElementScanner6.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding>
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginExampleActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="349">
+              <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1673#2043#0" expanded="true" />
-                <element signature="e#2042#2043#0" expanded="true" />
+                <element signature="e#1872#2239#0" expanded="true" />
+                <element signature="e#2238#2239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -568,42 +165,53 @@
       <file leaf-file-name="HandleFieldProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/HandleFieldProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+            <state relative-caret-position="595">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/lang/Class.class">
+      <file leaf-file-name="RegistrationExampleActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/RegistrationExampleActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="173" column="26" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
+            <state relative-caret-position="187">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constructor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/lang/reflect/Constructor.class">
+      <file leaf-file-name="LoginExampleActivity_FieldHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_FieldHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FieldsHandleManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java">
+      <file leaf-file-name="RegistrationExampleActivity_FieldHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/RegistrationExampleActivity_FieldHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_registration_example.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_registration_example.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -4209,29 +3817,31 @@
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/UniversalRequestCode.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity$$emailEditTextFieldHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldType.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsErrorHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/interfaces/FieldsHandleListener.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleField.java" />
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/universalerrorhandler-processors/build.gradle" />
         <option value="$PROJECT_DIR$/universalerrorhandler-annotations/build.gradle" />
         <option value="$PROJECT_DIR$/sample/build.gradle" />
         <option value="$PROJECT_DIR$/universalerrorhandler/build.gradle" />
         <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleOnAction.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldAction.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/BaseFieldHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/ActivityBindListener.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/BaseFieldHandler.java" />
         <option value="$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_EmailFieldHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldVisitor.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldGenerator.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/HandleFieldProcessor.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldType.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/interfaces/FieldsHandleListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsErrorHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldAction.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleField.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldVisitor.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/HandleFieldProcessor.java" />
+        <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/RegistrationExampleActivity.java" />
+        <option value="$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/RegistrationExampleActivity_FieldHandler.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java" />
       </list>
     </option>
@@ -4241,6 +3851,25 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidLintUseSparseArrays</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -4269,31 +3898,6 @@
     <panes>
       <pane id="AndroidView">
         <subPane />
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scratches" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -4388,6 +3992,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="visitors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Universal-Error-Handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Universal-Error-Handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universalerrorhandler-annotations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4571,11 +4189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4593,165 +4207,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="generated" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Universal-Error-Handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Universal-Error-Handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generated" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debug" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4779,6 +4281,31 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scratches" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Universal-Error-Handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4796,19 +4323,25 @@
     <property name="DEBUGGER_ID" value="Auto" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="github.homepunk.com.universalerrorhandler.managers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\src\main" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="github.homepunk.com.example" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.homepunk.com.universalerrorhandler" />
       <recent name="com.github.homepunk.processor" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="github.homepunk.com.universalerrorhandler.managers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\src\main\java\github\homepunk\com\universalerrorhandler" />
       <recent name="C:\Users\Homepunk\Documents\github\Universal-Error-Handler\annotations\src\main\java\com\github\homepunk\annotations" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.sample">
@@ -5153,6 +4686,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.10107527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1912" y="-8" width="1296" height="1010" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -5165,7 +4699,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32580644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32580644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -5209,127 +4743,36 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.1/cf1350eef8bfb7875bab1374c4b4c846e2948f72/support-annotations-26.0.1-sources.jar!/android/support/annotation/IntDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/util/Map.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/interfaces/FieldsHandleListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalResultType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_emailEditTextFieldHandler.java" />
-    <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_passwordEditTextFieldHandler.java" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/lang/model/SourceVersion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="53" column="45" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/annotation/processing/Processor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/lang/model/util/ElementScanner7.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/util/Set.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/annotation/processing/SupportedOptions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-processors/universalerrorhandler-processors.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9/gradle-3.3/src/base-services/org/gradle/internal/jvm/Jvm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9/gradle-3.3/src/core/org/gradle/api/artifacts/dsl/DependencyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -5411,68 +4854,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3366">
           <caret line="244" column="36" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#9423#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1656#1657#0" expanded="false" />
-            <element signature="e#1681#1682#0" expanded="false" />
-            <element signature="e#1843#1844#0" expanded="false" />
-            <element signature="e#1868#1869#0" expanded="false" />
-            <element signature="e#5783#5784#0" expanded="false" />
-            <element signature="e#5821#5822#0" expanded="false" />
-            <element signature="e#6724#6725#0" expanded="false" />
-            <element signature="e#6761#6762#0" expanded="false" />
-            <element signature="e#9376#9377#0" expanded="false" />
-            <element signature="e#9415#9416#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_PasswordFieldHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleOnAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_PasswordFieldHandler.java" />
     <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/com/sun/xml/internal/ws/policy/sourcemodel/ModelNode.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="345" column="23" selection-start-line="345" selection-start-column="23" selection-end-line="345" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/499341a875fe72e8fcf4ba856ba15f498d348e38/javapoet-1.8.0-sources.jar!/com/squareup/javapoet/CodeBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="344" column="19" selection-start-line="344" selection-start-column="19" selection-end-line="344" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5488,7 +4877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1808">
           <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5520,31 +4908,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/ActivityBindListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/ActivityBindListener.java" />
     <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/lang/reflect/Constructor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="629">
           <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
           <folding />
         </state>
@@ -5552,26 +4922,91 @@
     </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/lang/Class.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="1751">
           <caret line="173" column="26" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_EmailFieldHandler.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/util/Map.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/interfaces/FieldsHandleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/SuccessResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/UniversalErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/interfaces/ErrorResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/RequestsHandleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleOnAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -5580,58 +5015,173 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_EmailFieldHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2936#3235#0" expanded="true" />
-            <element signature="e#3234#3235#0" expanded="true" />
-            <element signature="e#3287#3556#0" expanded="true" />
-            <element signature="e#3555#3556#0" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-            <element signature="e#3702#3703#0" expanded="true" />
-            <element signature="e#3781#3782#0" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/FieldsHandleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/lang/model/element/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/lang/model/util/AbstractElementVisitor6.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/lang/Void.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/lang/model/util/ElementScanner7.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/lang/model/util/ElementScanner6.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/499341a875fe72e8fcf4ba856ba15f498d348e38/javapoet-1.8.0-sources.jar!/com/squareup/javapoet/CodeBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/HandleFieldProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+        <state relative-caret-position="595">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldCodeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_registration_example.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1661">
-          <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/RegistrationExampleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/RegistrationExampleActivity_FieldHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/LoginExampleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="349">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1673#2043#0" expanded="true" />
-            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#1872#2239#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/LoginExampleActivity_FieldHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleFieldVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

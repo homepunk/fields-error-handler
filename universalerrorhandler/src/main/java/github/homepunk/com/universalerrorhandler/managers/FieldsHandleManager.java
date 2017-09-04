@@ -29,26 +29,26 @@ import static com.homepunk.github.models.UniversalFieldAction.ON_TEXT_CHANGE;
 
 public class FieldsHandleManager {
     private static FieldsHandleManager instance;
-    private static String currentTargetType;
+    private static int currentTargetType;
     private static EditText currentTargetField;
     private static Map<Integer, EditText> targetFieldMap;
-    private Map<String, String> targetTypeMap;
-    private Map<String, String> targetDefaultMaskMap;
-    private Map<String, ErrorResultListener> targetFailListenerMap;
-    private Map<String, SuccessResultListener> targetSuccessListenerMap;
+    private Map<Integer, Integer> targetActionTypeMap;
+    private Map<Integer, String> targetDefaultMaskMap;
+    private Map<Integer, ErrorResultListener> targetFailListenerMap;
+    private Map<Integer, SuccessResultListener> targetSuccessListenerMap;
 
     private UniversalErrorHandler fieldsErrorHandler;
 
     private FieldsHandleManager() {
-        targetTypeMap = new HashMap<>();
         targetFieldMap = new HashMap<>();
+        targetActionTypeMap = new HashMap<>();
         targetDefaultMaskMap = new HashMap<>();
         targetFailListenerMap = new HashMap<>();
         targetSuccessListenerMap = new HashMap<>();
         fieldsErrorHandler = FieldsErrorHandler.getInstance();
     }
 
-    static FieldsHandleManager target(EditText targetField, @UniversalFieldType String targetType) {
+    static FieldsHandleManager target(EditText targetField, @UniversalFieldType int targetType) {
         if (instance == null) {
             instance = new FieldsHandleManager();
         }
@@ -60,8 +60,8 @@ public class FieldsHandleManager {
         return instance;
     }
 
-    public FieldsHandleManager handleOnAction(@UniversalFieldAction String action) {
-        targetTypeMap.put(action, currentTargetType);
+    public FieldsHandleManager handleOnAction(@UniversalFieldAction int action) {
+        targetActionTypeMap.put(action, currentTargetType);
 
         if (currentTargetField != null) {
             switch (action) {
@@ -69,7 +69,7 @@ public class FieldsHandleManager {
                     currentTargetField.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            String targetType = targetTypeMap.get(ON_CLICK);
+                            int targetType = targetActionTypeMap.get(ON_CLICK);
                             EditText targetField = targetFieldMap.get(view.hashCode());
 
                             handle(targetField.getText().toString(), targetType);
@@ -81,7 +81,7 @@ public class FieldsHandleManager {
                     currentTargetField.addTextChangedListener(new TextWatcherWrapper() {
                         @Override
                         public void afterTextChanged(Editable target) {
-                            String targetType = targetTypeMap.get(AFTER_TEXT_CHANGE);
+                            int targetType = targetActionTypeMap.get(AFTER_TEXT_CHANGE);
 
                             handle(target.toString(), targetType);
                         }
@@ -92,7 +92,7 @@ public class FieldsHandleManager {
                     currentTargetField.addTextChangedListener(new TextWatcherWrapper() {
                         @Override
                         public void onTextChanged(CharSequence targetCharSequence, int i, int i1, int i2) {
-                            String targetType = targetTypeMap.get(ON_TEXT_CHANGE);
+                            int targetType = targetActionTypeMap.get(ON_TEXT_CHANGE);
                             handle(targetCharSequence.toString(), targetType);
                         }
                     });
@@ -102,7 +102,7 @@ public class FieldsHandleManager {
                     currentTargetField.addTextChangedListener(new TextWatcherWrapper() {
                         @Override
                         public void beforeTextChanged(CharSequence targetCharSequence, int i, int i1, int i2) {
-                            String targetType = targetTypeMap.get(BEFORE_TEXT_CHANGE);
+                            int targetType = targetActionTypeMap.get(BEFORE_TEXT_CHANGE);
                             handle(targetCharSequence.toString(), targetType);
                         }
                     });
@@ -113,7 +113,7 @@ public class FieldsHandleManager {
                         @Override
                         public void onFocusChange(View view, boolean hasFocus) {
                             if (!hasFocus) {
-                                String targetType = targetTypeMap.get(ON_FOCUS_MISS);
+                                int targetType = targetActionTypeMap.get(ON_FOCUS_MISS);
                                 EditText targetField = targetFieldMap.get(view.hashCode());
                                 handle(targetField.getText().toString(), targetType);
                             }
@@ -146,14 +146,14 @@ public class FieldsHandleManager {
         return this;
     }
 
-    private void handle(String target, @UniversalFieldType String targetType) {
+    private void handle(String target, @UniversalFieldType int targetType) {
         initTargetListeners(targetType);
         if (target.length() > 0) {
             fieldsErrorHandler.handle(targetType, target);
         }
     }
 
-    private void initTargetListeners(String targetType) {
+    private void initTargetListeners(int targetType) {
         ErrorResultListener errorResultListener = targetFailListenerMap.get(targetType);
         SuccessResultListener successResultListener = targetSuccessListenerMap.get(targetType);
 

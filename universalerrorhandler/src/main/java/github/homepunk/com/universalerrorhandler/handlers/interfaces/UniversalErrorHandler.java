@@ -17,17 +17,17 @@ public interface UniversalErrorHandler {
      * @param targetType UniversalFieldType.NAME, UniversalFieldType.EMAIL, UniversalFieldType.NAME.PASSWORD,
      *                   UniversalFieldType.PHONE, UniversalFieldType.CUSTOM, UniversalFieldType.CREDIT_CARD
      */
-    void handle(@UniversalFieldType String targetType, String target);
+    void handle(@UniversalFieldType int targetType, String target);
 
     /**
      * Plain text validation
      *
      * @param target    plain text to validate
-     * @param errorType UniversalFieldType.NAME, UniversalFieldType.EMAIL, UniversalFieldType.NAME.PASSWORD,
+     * @param filedType UniversalFieldType.NAME, UniversalFieldType.EMAIL, UniversalFieldType.NAME.PASSWORD,
      *                  UniversalFieldType.PHONE, UniversalFieldType.CUSTOM, UniversalFieldType.CREDIT_CARD
      * @return result of validating @target
      */
-    boolean isValid(@UniversalFieldType String errorType, String target);
+    boolean isValid(@UniversalFieldType int filedType, String target);
 
     /**
      * onFieldHandleResult method would be called every time when validation on handleOnAction fails

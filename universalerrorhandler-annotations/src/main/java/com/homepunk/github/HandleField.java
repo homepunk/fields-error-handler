@@ -1,5 +1,6 @@
 package com.homepunk.github;
 
+import com.homepunk.github.models.UniversalFieldAction;
 import com.homepunk.github.models.UniversalFieldType;
 
 import java.lang.annotation.Retention;
@@ -11,5 +12,6 @@ import static java.lang.annotation.RetentionPolicy.SOURCE;
 @Retention(SOURCE)
 @Target(FIELD)
 public @interface HandleField  {
-    @UniversalFieldType String value();
+    @UniversalFieldType int value();
+    @UniversalFieldAction int action() default 3;
 }

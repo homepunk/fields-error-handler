@@ -72,6 +72,10 @@
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\0f3a2886188c6d4269034d0cdba5326cbfadec46\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registration_example.xml",
+        "source": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\src\\main\\res\\layout\\activity_registration_example.xml"
+    },
+    {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\efef5848851c9d1358479bf742468b5adb657234\\output\\res\\layout\\notification_template_lines_media.xml"
     },
@@ -116,12 +120,12 @@
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\0f3a2886188c6d4269034d0cdba5326cbfadec46\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\56ba277f3091d16f5dd77249b2c690fef38657ca\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\efef5848851c9d1358479bf742468b5adb657234\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\56ba277f3091d16f5dd77249b2c690fef38657ca\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
