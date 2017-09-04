@@ -63,7 +63,8 @@ public class HandleFieldVisitor extends ElementScanner7<Void, Void> {
     private Map<Name, HandleField> annotations;
 
     public HandleFieldVisitor(ProcessingEnvironment environment, TypeElement parent) {
-        this.originElement = parent;
+        originElement = parent;
+        targetClassName = parent.getSimpleName();
         annotations = new HashMap<>();
         targetFieldNames = new ArrayList<>();
         filer = environment.getFiler();
@@ -76,7 +77,6 @@ public class HandleFieldVisitor extends ElementScanner7<Void, Void> {
 
     @Override
     public Void visitVariable(VariableElement field, Void aVoid) {
-        targetClassName = originElement.getSimpleName();
         targetFieldNames.add(field.getSimpleName());
         annotations.put(field.getSimpleName(), field.getAnnotation(HandleField.class));
 

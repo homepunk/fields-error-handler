@@ -1,6 +1,5 @@
 package github.homepunk.com.universalerrorhandler.managers;
 
-import android.app.Activity;
 import android.util.Log;
 import android.widget.EditText;
 
@@ -27,7 +26,7 @@ public abstract class UniversalHandleManager {
     private static FieldsHandleListener fieldsHandleListener;
     private static RequestsHandleListener requestsHandleListener;
 
-    public static void bind(Activity target) {
+    public static void bind(Object target) {
         Constructor<? extends BaseFieldHandler> constructor = findConstructorForClass(target.getClass());
 
         try {
