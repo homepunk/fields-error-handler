@@ -1,4 +1,4 @@
-package github.homepunk.com.example.interfaces;
+package github.homepunk.com.example.views.interfaces;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,7 +7,9 @@ import android.content.Context;
  * Created by homepunk on 25.08.17.
  */
 
-public interface LoginExampleView {
+public interface LoginView {
+    void onFieldsHandleResult(int fieldType);
+
     void showError(String message);
 
     Context getContext();

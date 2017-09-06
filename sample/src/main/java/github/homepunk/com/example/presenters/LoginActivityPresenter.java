@@ -1,20 +1,26 @@
-package github.homepunk.com.example;
+package github.homepunk.com.example.presenters;
 
 
+import com.homepunk.github.OnFieldHandleResult;
 import com.squareup.okhttp.internal.http.RealResponseBody;
 
-import github.homepunk.com.example.interfaces.LoginExamplePresenter;
-import github.homepunk.com.example.interfaces.LoginExampleView;
+import github.homepunk.com.example.views.interfaces.LoginView;
+import github.homepunk.com.universalerrorhandler.managers.UniversalHandleManager;
 
 /**
  * Created by homepunk on 25.08.17.
  */
 
-class LoginExampleActivityPresenter implements LoginExamplePresenter {
-    private LoginExampleView view;
+public class LoginActivityPresenter implements LoginPresenter {
+    private LoginView view;
+
+    public LoginActivityPresenter() {
+        UniversalHandleManager.setHandleResultDestination(this);
+    }
 
     @Override
-    public void bind(LoginExampleView view) {
+
+    public void bind(LoginView view) {
         this.view = view;
     }
 
@@ -26,5 +32,10 @@ class LoginExampleActivityPresenter implements LoginExamplePresenter {
     @Override
     public void onLoginClick() {
         RealResponseBody responseBody = new RealResponseBody(null, null);
+    }
+
+    @OnFieldHandleResult("LoginActivity")
+    public void onFieldHandleResult(int errorType) {
+        view.onFieldsHandleResult(errorType);
     }
 }
