@@ -1,7 +1,5 @@
 package github.homepunk.com.universalerrorhandler.managers;
 
-import android.support.annotation.Nullable;
-
 import com.squareup.okhttp.Response;
 import com.squareup.okhttp.ResponseBody;
 

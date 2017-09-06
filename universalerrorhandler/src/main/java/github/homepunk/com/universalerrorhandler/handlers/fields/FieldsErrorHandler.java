@@ -1,18 +1,24 @@
 package github.homepunk.com.universalerrorhandler.handlers.fields;
 
-import android.util.Patterns;
+import android.util.SparseArray;
 
 import com.homepunk.github.models.UniversalFieldType;
 
 import github.homepunk.com.universalerrorhandler.handlers.fields.validators.CreditCardValidator;
+import github.homepunk.com.universalerrorhandler.handlers.fields.validators.EmailValidator;
+import github.homepunk.com.universalerrorhandler.handlers.fields.validators.NameValidator;
+import github.homepunk.com.universalerrorhandler.handlers.fields.validators.PasswordValidator;
 import github.homepunk.com.universalerrorhandler.handlers.fields.validators.PhoneValidator;
+import github.homepunk.com.universalerrorhandler.handlers.fields.validators.interfaces.UniversalValidator;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
 
-import static com.homepunk.github.models.UniversalFieldType.*;
-import static github.homepunk.com.universalerrorhandler.Constants.EMPTY_EMAIL;
-import static github.homepunk.com.universalerrorhandler.Constants.EMPTY_PASSWORD;
+import static com.homepunk.github.models.UniversalFieldType.CREDIT_CARD;
+import static com.homepunk.github.models.UniversalFieldType.EMAIL;
+import static com.homepunk.github.models.UniversalFieldType.NAME;
+import static com.homepunk.github.models.UniversalFieldType.PASSWORD;
+import static com.homepunk.github.models.UniversalFieldType.PHONE;
 
 /**
  * Created by homepunk on 24.08.17.
@@ -23,8 +29,15 @@ public class FieldsErrorHandler implements UniversalErrorHandler {
 
     private ErrorResultListener currentFailListener;
     private SuccessResultListener currentSuccessListener;
+    private SparseArray<UniversalValidator> validatorsMap;
 
     private FieldsErrorHandler() {
+        validatorsMap = new SparseArray<>();
+        validatorsMap.put(NAME, new NameValidator());
+        validatorsMap.put(EMAIL, new EmailValidator());
+        validatorsMap.put(PHONE, new PhoneValidator());
+        validatorsMap.put(PASSWORD, new PasswordValidator());
+        validatorsMap.put(CREDIT_CARD, new CreditCardValidator());
     }
 
     public static UniversalErrorHandler getInstance() {
@@ -36,64 +49,19 @@ public class FieldsErrorHandler implements UniversalErrorHandler {
     }
 
     @Override
-    public void handle(@UniversalFieldType int targetType, String target) {
-        final String errorMessage = null;
-
-        switch (targetType) {
-            case NAME: {
-                handleError(targetType, isNameValid(target), errorMessage);
-                break;
-            }
-            case EMAIL: {
-                handleError(targetType, isEmailValid(target), EMPTY_EMAIL);
-                break;
-            }
-            case PHONE: {
-                handleError(targetType, PhoneValidator.isValid(target), errorMessage);
-            }
-            case PASSWORD: {
-                handleError(targetType, isPasswordValid(target), EMPTY_PASSWORD);
-                break;
-            }
-            case CREDIT_CARD: {
-                handleError(targetType, CreditCardValidator.isValid(target), errorMessage);
-            }
-            default: {
-                if (currentSuccessListener != null) {
-                    currentSuccessListener.onSuccess();
-                }
-            }
-        }
+    public void setFieldValidator(@UniversalFieldType int fieldType, UniversalValidator validator) {
+        validatorsMap.put(fieldType, validator);
     }
 
-    private void handleError(@UniversalFieldType int targetType, boolean isValid, String errorMessage) {
-        if (!isValid) {
-            if (currentFailListener != null) {
-                currentFailListener.onErrorResult(errorMessage);
-            }
-        } else {
-            if (currentSuccessListener != null) {
-                currentSuccessListener.onSuccess();
-            }
-        }
+    @Override
+    public void handle(@UniversalFieldType int targetType, String target) {
+        UniversalValidator validator = validatorsMap.get(targetType);
+        handleError(validator.isValid(target), "Not valid");
     }
 
     @Override
     public boolean isValid(@UniversalFieldType int filedType, String target) {
-        switch (filedType) {
-            case NAME: {
-                return isNameValid(target);
-            }
-            case EMAIL: {
-                return isEmailValid(target);
-            }
-            case PASSWORD: {
-                return isPasswordValid(target);
-            }
-            default: {
-                return false;
-            }
-        }
+        return validatorsMap.get(filedType).isValid(target);
     }
 
     @Override
@@ -106,19 +74,15 @@ public class FieldsErrorHandler implements UniversalErrorHandler {
         this.currentSuccessListener = successResultListener;
     }
 
-    private boolean isNameValid(String name) {
-        return name.length() > 1;
-    }
-
-    private boolean isEmailValid(String email) {
-        return email.length() > 6 && Patterns.EMAIL_ADDRESS.matcher(email).matches();
-    }
-
-    private boolean isPhoneValid(String phone) {
-        return phone.length() > 2 && Patterns.PHONE.matcher(phone).matches();
-    }
-
-    private boolean isPasswordValid(String password) {
-        return password.length() > 3;
+    private void handleError(boolean isValid, String errorMessage) {
+        if (!isValid) {
+            if (currentFailListener != null) {
+                currentFailListener.onErrorResult(errorMessage);
+            }
+        } else {
+            if (currentSuccessListener != null) {
+                currentSuccessListener.onSuccess();
+            }
+        }
     }
 }

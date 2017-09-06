@@ -3,6 +3,8 @@ package github.homepunk.com.universalerrorhandler.handlers.interfaces;
 
 import com.homepunk.github.models.UniversalFieldType;
 
+import github.homepunk.com.universalerrorhandler.handlers.fields.validators.interfaces.UniversalValidator;
+
 /**
  * Main interface which provides methods for error handling
  * <p>
@@ -10,6 +12,8 @@ import com.homepunk.github.models.UniversalFieldType;
  */
 
 public interface UniversalErrorHandler {
+    void setFieldValidator(@UniversalFieldType int fieldType, UniversalValidator validator);
+
     /**
      * Either validate text or handleOnAction network error requests
      *

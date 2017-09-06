@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import github.homepunk.com.universalerrorhandler.handlers.fields.FieldsErrorHandler;
+import github.homepunk.com.universalerrorhandler.handlers.fields.validators.interfaces.UniversalValidator;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
 import github.homepunk.com.universalerrorhandler.handlers.interfaces.UniversalErrorHandler;
@@ -142,7 +143,8 @@ public class FieldsHandleManager {
         return this;
     }
 
-    public FieldsHandleManager setSuccessCondition(boolean condition) {
+    public FieldsHandleManager addFieldValidator(UniversalValidator validator) {
+        fieldsErrorHandler.setFieldValidator(currentTargetType, validator);
         return this;
     }
 
