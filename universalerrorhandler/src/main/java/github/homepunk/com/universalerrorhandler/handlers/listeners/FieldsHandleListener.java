@@ -1,4 +1,4 @@
-package github.homepunk.com.universalerrorhandler.handlers.fields.interfaces;
+package github.homepunk.com.universalerrorhandler.handlers.listeners;
 
 
 import com.homepunk.github.models.UniversalFieldType;
@@ -8,5 +8,5 @@ import com.homepunk.github.models.UniversalFieldType;
  */
 
 public interface FieldsHandleListener {
-    void onFieldHandleResult(@UniversalFieldType int targetType, boolean isSuccess, String error);
+    void onFieldHandleResult(@UniversalFieldType int targetType, boolean isSuccess);
 }

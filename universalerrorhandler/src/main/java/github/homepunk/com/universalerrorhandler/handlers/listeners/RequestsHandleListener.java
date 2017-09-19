@@ -1,4 +1,4 @@
-package github.homepunk.com.universalerrorhandler.handlers.requests.listeners;
+package github.homepunk.com.universalerrorhandler.handlers.listeners;
 
 /**
  * Created by homepunk on 27.08.17.

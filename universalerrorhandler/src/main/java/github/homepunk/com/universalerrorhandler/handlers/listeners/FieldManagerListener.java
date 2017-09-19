@@ -5,4 +5,5 @@ package github.homepunk.com.universalerrorhandler.handlers.listeners;
  **/
 
 public interface FieldManagerListener {
+    void onHandleResult(int managerHashCode,int targetType, boolean isSuccess);
 }
