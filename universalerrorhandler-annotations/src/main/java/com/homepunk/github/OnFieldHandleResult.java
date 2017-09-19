@@ -13,5 +13,7 @@ import static java.lang.annotation.RetentionPolicy.SOURCE;
 @Target(METHOD)
 @Retention(SOURCE)
 public @interface OnFieldHandleResult {
-    String value();
+    String value() default "";
+
+    String[] targets() default {"asd", "asd"};
 }

@@ -1,22 +1,22 @@
-<LinearLayout android:id="@+id/auth_form_layout"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/auth_form_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentTop="true"
     android:orientation="vertical"
     android:paddingEnd="10dp"
     android:paddingStart="10dp"
-    android:paddingTop="30dp"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:paddingTop="30dp">
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/auth_login_email_input_layout"
+        android:id="@+id/fragment_registration_email_input_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:errorEnabled="true">
 
         <android.support.v7.widget.AppCompatEditText
-            android:id="@+id/auth_login_email_edit_text"
+            android:id="@+id/fragment_registration_email_edit_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/email"
@@ -25,13 +25,13 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/auth_login_password_input_layout"
+        android:id="@+id/fragment_registration_password_input_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:errorEnabled="true">
 
         <android.support.v7.widget.AppCompatEditText
-            android:id="@+id/auth_login_password_edit_text"
+            android:id="@+id/fragment_registration_password_edit_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
@@ -41,5 +41,20 @@
             android:textSize="13sp" />
     </android.support.design.widget.TextInputLayout>
 
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_registration_password_confirmation_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
 
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/fragment_registration_password_confirmation_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:hint="@string/password_confirmation"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textSize="13sp" />
+    </android.support.design.widget.TextInputLayout>
 </LinearLayout>

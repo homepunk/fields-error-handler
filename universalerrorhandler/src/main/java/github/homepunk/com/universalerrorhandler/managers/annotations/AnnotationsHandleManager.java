@@ -1,4 +1,4 @@
-package github.homepunk.com.universalerrorhandler.managers;
+package github.homepunk.com.universalerrorhandler.managers.annotations;
 
 import android.util.Log;
 
@@ -8,10 +8,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
 
-import github.homepunk.com.universalerrorhandler.handlers.fields.FieldsErrorHandler;
 import github.homepunk.com.universalerrorhandler.handlers.fields.validators.interfaces.UniversalValidator;
 
 import static android.content.ContentValues.TAG;
@@ -22,43 +19,47 @@ import static android.content.ContentValues.TAG;
 
 public class AnnotationsHandleManager {
     private static AnnotationsHandleManager instance;
-    //    private Object target;
-    private Map<Class, Object> destinationTargetMap;
-    private Map<Class, Object> destinationMap;
+    private Object generatedInstance;
+    private Object destination;
 
-    private AnnotationsHandleManager() {
-        destinationMap = new HashMap();
-        destinationTargetMap = new HashMap();
-    }
+    private AnnotationsHandleManager() {}
 
-    static AnnotationsHandleManager target(Object target) {
+    public static AnnotationsHandleManager target(Object target) {
         if (instance == null) {
             instance = new AnnotationsHandleManager();
         }
 
-        instance.addTarget(target);
-        return instance;
+        instance.setTarget(target);
+        return instance.isGeneratedInstanceExists(target) ? instance : null;
     }
 
-    static AnnotationsHandleManager destination(Object destination) {
+    private boolean isGeneratedInstanceExists(Object target) {
+        try {
+            return Class.forName(target.getClass().getName() + "_FieldHandler") != null;
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public static AnnotationsHandleManager destination(Object destination) {
         if (instance == null) {
             instance = new AnnotationsHandleManager();
         }
 
-        instance.addDestination(destination);
+        instance.setDestination(destination);
         return instance;
     }
 
-    private void addTarget(Object target) {
-        createFieldHandlerInstance(target);
+    private AnnotationsHandleManager setTarget(Object target) {
+        createTargetFieldsHandlerInstance(target);
 
         try {
             Class<?> generatedClass = Class.forName(target.getClass().getName() + "_FieldHandler");
             Field destinationField = generatedClass.getDeclaredField("destination");
-
-            if (destinationField != null) {
-                if (destinationTargetMap.containsKey(destinationField.getType())) {
-                    invokeSetDestinationMethod(generatedClass, destinationMap.get(destinationField.getType()));
+            if (destinationField != null && generatedInstance != null) {
+                if (destination != null) {
+                    invokeSetDestinationMethod(generatedInstance, destination);
                 }
             }
         } catch (NoSuchFieldException e) {
@@ -66,27 +67,22 @@ public class AnnotationsHandleManager {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-    }
-
-    private AnnotationsHandleManager addDestination(Object destination) {
-        if (destinationTargetMap.isEmpty()) {
-            destinationTargetMap.put(destination.getClass(), null);
-            destinationMap.put(destination.getClass(), destination);
-        } else {
-            Class target = destinationTargetMap.get(destination.getClass()).getClass();
-            invokeSetDestinationMethod(target, destination);
-        }
 
         return this;
     }
 
-    private void invokeSetDestinationMethod(Object target, Object destination) {
+    private AnnotationsHandleManager setDestination(Object destination) {
+        if (generatedInstance != null) {
+            invokeSetDestinationMethod(generatedInstance, destination);
+        }
+        this.destination = destination;
+        return this;
+    }
+
+    private void invokeSetDestinationMethod(Object generatedInstance, Object destination) {
         try {
-//              expected receiver of type github.homepunk.com.example.views.LoginActivity_FieldHandler, but got github.homepunk.com.example.presenters.LoginActivityPresenter
-            if (target instanceof Class) {
-                Method setDestinationMethod = ((Class)target).getDeclaredMethod("setDestination", destination.getClass());
-                setDestinationMethod.invoke(destinationTargetMap.get(destination.getClass()), destination);
-            }
+            Method setDestinationMethod = generatedInstance.getClass().getDeclaredMethod("setDestination", destination.getClass());
+            setDestinationMethod.invoke(generatedInstance, destination);
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
@@ -97,15 +93,15 @@ public class AnnotationsHandleManager {
     }
 
     public AnnotationsHandleManager addFieldValidator(@UniversalFieldType int fieldType, UniversalValidator validator) {
-        FieldsErrorHandler.getInstance().setFieldValidator(fieldType, validator);
+        // TODO: 19.09.2017
         return this;
     }
 
-    private void createFieldHandlerInstance(Object target) {
+    private void createTargetFieldsHandlerInstance(Object target) {
         Constructor constructor = findConstructorForClass(target.getClass());
 
         try {
-            Object targetInstance = constructor.newInstance(target);
+            generatedInstance = constructor.newInstance(target);
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

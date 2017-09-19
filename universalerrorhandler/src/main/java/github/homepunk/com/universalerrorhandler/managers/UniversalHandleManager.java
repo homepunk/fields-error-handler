@@ -1,44 +1,49 @@
 package github.homepunk.com.universalerrorhandler.managers;
 
-import android.widget.EditText;
+import android.app.Activity;
+import android.support.v4.app.Fragment;
+import android.util.SparseArray;
 
-import com.homepunk.github.models.UniversalFieldType;
 import com.squareup.okhttp.Response;
 import com.squareup.okhttp.ResponseBody;
 
-import github.homepunk.com.universalerrorhandler.handlers.fields.interfaces.FieldsHandleListener;
-import github.homepunk.com.universalerrorhandler.handlers.interfaces.ErrorResultListener;
-import github.homepunk.com.universalerrorhandler.handlers.interfaces.SuccessResultListener;
-import github.homepunk.com.universalerrorhandler.handlers.requests.listeners.RequestsHandleListener;
+import github.homepunk.com.universalerrorhandler.handlers.fields.FieldsErrorHandler;
+import github.homepunk.com.universalerrorhandler.managers.annotations.AnnotationsHandleManager;
+import github.homepunk.com.universalerrorhandler.managers.fields.FieldsHandleManager;
+import github.homepunk.com.universalerrorhandler.managers.requests.RequestsHandleManager;
 
 /**
  * Created by homepunk on 25.08.17.
  */
 
 public abstract class UniversalHandleManager {
-    private static FieldsHandleListener fieldsHandleListener;
-    private static RequestsHandleListener requestsHandleListener;
+    private static SparseArray<AnnotationsHandleManager> targetAnnotationsManagersMap;
+    private static SparseArray<FieldsHandleManager> targetFieldsHandleManagersMap;
 
-    public static FieldsHandleManager target(EditText targetField, @UniversalFieldType final int targetType) {
-        FieldsHandleManager fieldsHandleManager = FieldsHandleManager.target(targetField, targetType);
-        fieldsHandleManager.setOnFailListener(new ErrorResultListener() {
-            @Override
-            public void onErrorResult(String errorMessage) {
-                if (fieldsHandleListener != null) {
-                    fieldsHandleListener.onFieldHandleResult(targetType, false, errorMessage);
-                }
-            }
-        });
-        fieldsHandleManager.setOnSuccessListener(new SuccessResultListener() {
-            @Override
-            public void onSuccess() {
-                if (fieldsHandleListener != null) {
-                    fieldsHandleListener.onFieldHandleResult(targetType, true, null);
-                }
-            }
-        });
+    static {
+        targetAnnotationsManagersMap = new SparseArray<>();
+        targetFieldsHandleManagersMap = new SparseArray<>();
+    }
 
-        return fieldsHandleManager;
+    private UniversalHandleManager() {}
+
+    public static FieldsHandleManager getFieldsHandleManager(Activity target) {
+        return retrieveFieldsHandleManager(target);
+    }
+
+    public static FieldsHandleManager getFieldsHandleManager(Fragment target) {
+        return retrieveFieldsHandleManager(target);
+    }
+
+    private static FieldsHandleManager retrieveFieldsHandleManager(Object target) {
+        final FieldsHandleManager fieldsHandleManager;
+        final int key = target.hashCode();
+        if (targetFieldsHandleManagersMap.get(key) == null) {
+            fieldsHandleManager = new FieldsHandleManager(new FieldsErrorHandler());
+            targetFieldsHandleManagersMap.put(key, fieldsHandleManager);
+        }
+
+        return targetFieldsHandleManagersMap.get(key);
     }
 
     public static RequestsHandleManager target(Response targetResponse) {
@@ -49,19 +54,24 @@ public abstract class UniversalHandleManager {
         return null;
     }
 
-    public static AnnotationsHandleManager target(Object target) {
-        return AnnotationsHandleManager.target(target);
+    public static AnnotationsHandleManager target(Activity target) {
+        return retrieveAnnotationsHandleManager(target);
     }
 
-    public static void setFieldsHandleListener(final FieldsHandleListener listener) {
-        fieldsHandleListener = listener;
+    public static AnnotationsHandleManager target(Fragment target) {
+        return retrieveAnnotationsHandleManager(target);
     }
 
-    public static void setRequestsHandleListener(final RequestsHandleListener listener) {
-        requestsHandleListener = listener;
+    private static AnnotationsHandleManager retrieveAnnotationsHandleManager(Object target) {
+        final int key = target.hashCode();
+        if (targetAnnotationsManagersMap.get(key) == null) {
+            targetAnnotationsManagersMap.put(key, AnnotationsHandleManager.target(target));
+        }
+
+        return targetAnnotationsManagersMap.get(key);
     }
 
-    public static void setHandleResultDestination(Object destination) {
-       AnnotationsHandleManager.destination(destination);
+    public static void destination(Object destination) {
+        AnnotationsHandleManager.destination(destination);
     }
 }

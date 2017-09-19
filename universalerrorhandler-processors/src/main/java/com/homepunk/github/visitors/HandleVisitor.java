@@ -1,5 +1,7 @@
 package com.homepunk.github.visitors;
 
+import android.support.annotation.NonNull;
+
 import com.homepunk.github.HandleField;
 import com.squareup.javapoet.ClassName;
 import com.squareup.javapoet.CodeBlock;
@@ -61,7 +63,6 @@ public class HandleVisitor extends ElementScanner7<Void, Void> {
     private TypeElement originElement;
     private List<Name> targetFieldNames;
     private Map<Name, HandleField> annotations;
-
     private ExecutableElement onHandleResultMethod;
     private Element destinationClass;
 
@@ -131,11 +132,9 @@ public class HandleVisitor extends ElementScanner7<Void, Void> {
                 .build();
     }
 
-
     private FieldSpec getDestinationField() {
         return FieldSpec.builder(ClassName.get(destinationClass.asType()), "destination", Modifier.PUBLIC).build();
     }
-
 
     private MethodSpec getSetDestinationMethod() {
         return MethodSpec.methodBuilder("setDestination")
@@ -165,23 +164,34 @@ public class HandleVisitor extends ElementScanner7<Void, Void> {
 
     private void generateHandleCallbackCodeBlock() {
         if (onHandleResultMethod != null) {
+            List<? extends VariableElement> onHandleResultMethodParameters = onHandleResultMethod.getParameters();
+
             TypeSpec fieldsHandleListener = TypeSpec.anonymousClassBuilder("")
-                    .addSuperinterface(getTopLevelClassName("github.homepunk.com.universalerrorhandler.handlers.fields.interfaces", "FieldsHandleListener"))
-                    .addMethod(MethodSpec.methodBuilder("onFieldHandleResult")
-                            .addAnnotation(Override.class)
-                            .addModifiers(Modifier.PUBLIC)
-                            .addParameter(int.class, "targetType")
-                            .addParameter(boolean.class, "isSuccess")
-                            .addParameter(String.class, "error")
-                            .beginControlFlow("if (destination != null)")
-                            .addStatement("destination.$N(targetType)", onHandleResultMethod.getSimpleName())
-                            .endControlFlow()
-                            .build())
+                    .addSuperinterface(getTopLevelClassName("github.homepunk.com.universalerrorhandler.handlers.listeners", "FieldsHandleListener"))
+                    .addMethod(getAnonymousMethodImpl(onHandleResultMethodParameters.size()))
                     .build();
 
-            methodBodyBuilder.addStatement("$T.setFieldsHandleListener($L)", getTopLevelClassName(UNIVERSAL_ERROR_HANDLER_MANAGERS_PACKAGE, "UniversalHandleManager"), fieldsHandleListener);
+            methodBodyBuilder.addStatement("$T.getFieldsHandleManager(target).setHandleListener($L)", getTopLevelClassName(UNIVERSAL_ERROR_HANDLER_MANAGERS_PACKAGE, "UniversalHandleManager"), fieldsHandleListener);
 
         }
+    }
+
+    @NonNull
+    private MethodSpec getAnonymousMethodImpl(int destinationParametersSize) {
+        MethodSpec.Builder anonymousMethodImplBuilder = MethodSpec.methodBuilder("onFieldHandleResult")
+                .addAnnotation(Override.class)
+                .addModifiers(Modifier.PUBLIC)
+                .addParameter(int.class, "targetType")
+                .addParameter(boolean.class, "isSuccess")
+                .beginControlFlow("if (destination != null)");
+
+        if (destinationParametersSize == 1) {
+            anonymousMethodImplBuilder.addStatement("destination.$N(targetType)", onHandleResultMethod.getSimpleName());
+        } else if (destinationParametersSize == 2) {
+            anonymousMethodImplBuilder.addStatement("destination.$N(targetType, isSuccess)", onHandleResultMethod.getSimpleName());
+        }
+
+        return anonymousMethodImplBuilder.endControlFlow().build();
     }
 
     private void generateCheckFieldsNotNullCodeBlock() {
@@ -203,7 +213,7 @@ public class HandleVisitor extends ElementScanner7<Void, Void> {
             int universalFieldType = annotations.get(targetFieldName).value();
             int universalFieldActionType = annotations.get(targetFieldName).action();
 
-            methodBodyBuilder.addStatement("$T.target(target.$N, $L).handleOnAction($L)",
+            methodBodyBuilder.addStatement("$T.getFieldsHandleManager(target).target(target.$N,$L).handleOnAction($L)",
                     universalHandleManagerClassName,
                     targetFieldName,
                     universalFieldType,

@@ -1,18 +1,18 @@
 [
     {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\73a1a01f1dea480364da05bb5fcdaa577693429d\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\1dbe97eef968478df045f4f0e185a07ed2680571\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\73a1a01f1dea480364da05bb5fcdaa577693429d\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\1dbe97eef968478df045f4f0e185a07ed2680571\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\73a1a01f1dea480364da05bb5fcdaa577693429d\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\1dbe97eef968478df045f4f0e185a07ed2680571\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\73a1a01f1dea480364da05bb5fcdaa577693429d\\output\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\1dbe97eef968478df045f4f0e185a07ed2680571\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]

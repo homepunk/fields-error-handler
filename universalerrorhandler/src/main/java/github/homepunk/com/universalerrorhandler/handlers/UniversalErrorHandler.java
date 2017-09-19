@@ -1,9 +1,13 @@
-package github.homepunk.com.universalerrorhandler.handlers.interfaces;
+package github.homepunk.com.universalerrorhandler.handlers;
 
 
+import com.homepunk.github.models.UniversalFieldAction;
 import com.homepunk.github.models.UniversalFieldType;
 
 import github.homepunk.com.universalerrorhandler.handlers.fields.validators.interfaces.UniversalValidator;
+import github.homepunk.com.universalerrorhandler.handlers.listeners.ErrorResultListener;
+import github.homepunk.com.universalerrorhandler.handlers.listeners.FieldsHandleListener;
+import github.homepunk.com.universalerrorhandler.handlers.listeners.SuccessResultListener;
 
 /**
  * Main interface which provides methods for error handling
@@ -12,6 +16,7 @@ import github.homepunk.com.universalerrorhandler.handlers.fields.validators.inte
  */
 
 public interface UniversalErrorHandler {
+
     void setFieldValidator(@UniversalFieldType int fieldType, UniversalValidator validator);
 
     /**
@@ -44,4 +49,6 @@ public interface UniversalErrorHandler {
      * @param successResultListener action to be executed
      */
     void setOnHandleSuccessListener(SuccessResultListener successResultListener);
+
+    void setOnHandleResultListener(FieldsHandleListener handleResultListener);
 }

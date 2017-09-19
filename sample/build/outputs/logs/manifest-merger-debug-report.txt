@@ -29,18 +29,19 @@ application
 ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:10:5-27:19
 MERGED from [Universal-Error-Handler:universalerrorhandler:unspecified] C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Homepunk\.android\build-cache\70ef53769d78e86216eaa92c80e30a26b7643c78\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:26.0.2] C:\Users\Homepunk\.android\build-cache\56ba277f3091d16f5dd77249b2c690fef38657ca\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\Homepunk\.android\build-cache\0f3a2886188c6d4269034d0cdba5326cbfadec46\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\Homepunk\.android\build-cache\7ed84202d0f341a08c68907b222fc1298985f6c7\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\Homepunk\.android\build-cache\ad57a1dbb354087b961779468a0ebf088ee6b09e\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\Homepunk\.android\build-cache\0de6e34c237751d01e50567fe39e670b891ec8f6\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.0.2] C:\Users\Homepunk\.android\build-cache\6adbae2733a961b1e973185f10fe718558184268\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.0.2] C:\Users\Homepunk\.android\build-cache\56a3ce04daf1669e0783a5ed171a2e5ec56c550d\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\Homepunk\.android\build-cache\efef5848851c9d1358479bf742468b5adb657234\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\Homepunk\.android\build-cache\c394256940b11ae90bef61a595f4bf75b21c1229\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\Homepunk\.android\build-cache\a9f9bbb25b60bbf67f54515f95f1f2145edb7424\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\Homepunk\.android\build-cache\3e8786f3bc17962f63dd91c12ced2196856e23de\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.2] C:\Users\Homepunk\.android\build-cache\73a1a01f1dea480364da05bb5fcdaa577693429d\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Homepunk\.android\build-cache\7e94595b29fa78b37e30012d27cdc8debf40d79d\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Homepunk\.android\build-cache\9a114b5fd6fd91c8abd3fab5b140f33bea1020e2\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Homepunk\.android\build-cache\da63534a4541a8097b2078c5a68ac19a760fee75\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Homepunk\.android\build-cache\f83983fbac3e16e574636a31e65633109602c604\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Homepunk\.android\build-cache\90aa6d6ed49ad988a25c2e2e290837882d012baf\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Homepunk\.android\build-cache\f2ef3b15c9d0755c60fb2219aaea565392a6e3bc\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Homepunk\.android\build-cache\9f4deb581ef644b4953b9e985a9765d0fe2aff67\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Homepunk\.android\build-cache\41a454763f796b462fd8c4e215c84bc18de0154d\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Homepunk\.android\build-cache\467a3ffcda66ac8a2e884d80dd4c3bbdb4945ad4\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Homepunk\.android\build-cache\e23c9f480a012ab1fc40872d75ca360fcd402a1f\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Homepunk\.android\build-cache\5570f022e4ad648819786998fa21296863efcf18\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Homepunk\.android\build-cache\1dbe97eef968478df045f4f0e185a07ed2680571\output\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Homepunk\.android\build-cache\1e2ed5923bd84c5d37ce311f453e49b554f49031\output\AndroidManifest.xml:24:5-28:19
 	android:label
 		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:13:9-41
 	android:supportsRtl
@@ -53,14 +54,14 @@ MERGED from [com.android.support:support-compat:26.0.2] C:\Users\Homepunk\.andro
 		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:12:9-43
 	android:theme
 		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:16:9-40
-activity#github.homepunk.com.example.views.LoginActivity
+activity#github.homepunk.com.example.auth.AuthActivity
 ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:17:9-26:20
 	android:label
 		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:19:13-45
 	android:theme
 		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:18:13-48
+		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:18:13-46
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
@@ -76,20 +77,21 @@ INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\
 MERGED from [Universal-Error-Handler:universalerrorhandler:unspecified] C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Homepunk\.android\build-cache\8f2555fb8a50c79c29813a46d0eba4639d883a98\output\AndroidManifest.xml:19:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Homepunk\.android\build-cache\70ef53769d78e86216eaa92c80e30a26b7643c78\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:26.0.2] C:\Users\Homepunk\.android\build-cache\56ba277f3091d16f5dd77249b2c690fef38657ca\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\Homepunk\.android\build-cache\0f3a2886188c6d4269034d0cdba5326cbfadec46\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\Homepunk\.android\build-cache\7ed84202d0f341a08c68907b222fc1298985f6c7\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\Homepunk\.android\build-cache\ad57a1dbb354087b961779468a0ebf088ee6b09e\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\Homepunk\.android\build-cache\0de6e34c237751d01e50567fe39e670b891ec8f6\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.2] C:\Users\Homepunk\.android\build-cache\6adbae2733a961b1e973185f10fe718558184268\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.2] C:\Users\Homepunk\.android\build-cache\56a3ce04daf1669e0783a5ed171a2e5ec56c550d\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\Homepunk\.android\build-cache\efef5848851c9d1358479bf742468b5adb657234\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\Homepunk\.android\build-cache\c394256940b11ae90bef61a595f4bf75b21c1229\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\Homepunk\.android\build-cache\a9f9bbb25b60bbf67f54515f95f1f2145edb7424\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\Homepunk\.android\build-cache\3e8786f3bc17962f63dd91c12ced2196856e23de\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.2] C:\Users\Homepunk\.android\build-cache\73a1a01f1dea480364da05bb5fcdaa577693429d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:design:26.1.0] C:\Users\Homepunk\.android\build-cache\7e94595b29fa78b37e30012d27cdc8debf40d79d\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Homepunk\.android\build-cache\9a114b5fd6fd91c8abd3fab5b140f33bea1020e2\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Homepunk\.android\build-cache\da63534a4541a8097b2078c5a68ac19a760fee75\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Homepunk\.android\build-cache\f83983fbac3e16e574636a31e65633109602c604\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Homepunk\.android\build-cache\90aa6d6ed49ad988a25c2e2e290837882d012baf\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Homepunk\.android\build-cache\f2ef3b15c9d0755c60fb2219aaea565392a6e3bc\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Homepunk\.android\build-cache\9f4deb581ef644b4953b9e985a9765d0fe2aff67\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Homepunk\.android\build-cache\41a454763f796b462fd8c4e215c84bc18de0154d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Homepunk\.android\build-cache\467a3ffcda66ac8a2e884d80dd4c3bbdb4945ad4\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Homepunk\.android\build-cache\e23c9f480a012ab1fc40872d75ca360fcd402a1f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Homepunk\.android\build-cache\5570f022e4ad648819786998fa21296863efcf18\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Homepunk\.android\build-cache\1dbe97eef968478df045f4f0e185a07ed2680571\output\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Homepunk\.android\build-cache\1e2ed5923bd84c5d37ce311f453e49b554f49031\output\AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.2] C:\Users\Homepunk\.android\build-cache\56ba277f3091d16f5dd77249b2c690fef38657ca\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Homepunk\.android\build-cache\7e94595b29fa78b37e30012d27cdc8debf40d79d\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml
@@ -97,19 +99,25 @@ MERGED from [com.android.support:support-compat:26.0.2] C:\Users\Homepunk\.andro
 		INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.2] C:\Users\Homepunk\.android\build-cache\56ba277f3091d16f5dd77249b2c690fef38657ca\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\Homepunk\.android\build-cache\0f3a2886188c6d4269034d0cdba5326cbfadec46\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\Homepunk\.android\build-cache\7ed84202d0f341a08c68907b222fc1298985f6c7\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\Homepunk\.android\build-cache\ad57a1dbb354087b961779468a0ebf088ee6b09e\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\Homepunk\.android\build-cache\0de6e34c237751d01e50567fe39e670b891ec8f6\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.0.2] C:\Users\Homepunk\.android\build-cache\6adbae2733a961b1e973185f10fe718558184268\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.0.2] C:\Users\Homepunk\.android\build-cache\56a3ce04daf1669e0783a5ed171a2e5ec56c550d\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\Homepunk\.android\build-cache\efef5848851c9d1358479bf742468b5adb657234\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\Homepunk\.android\build-cache\c394256940b11ae90bef61a595f4bf75b21c1229\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\Homepunk\.android\build-cache\a9f9bbb25b60bbf67f54515f95f1f2145edb7424\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\Homepunk\.android\build-cache\3e8786f3bc17962f63dd91c12ced2196856e23de\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.2] C:\Users\Homepunk\.android\build-cache\73a1a01f1dea480364da05bb5fcdaa577693429d\output\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] C:\Users\Homepunk\.android\build-cache\7e94595b29fa78b37e30012d27cdc8debf40d79d\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Homepunk\.android\build-cache\9a114b5fd6fd91c8abd3fab5b140f33bea1020e2\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Homepunk\.android\build-cache\da63534a4541a8097b2078c5a68ac19a760fee75\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Homepunk\.android\build-cache\f83983fbac3e16e574636a31e65633109602c604\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Homepunk\.android\build-cache\90aa6d6ed49ad988a25c2e2e290837882d012baf\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Homepunk\.android\build-cache\f2ef3b15c9d0755c60fb2219aaea565392a6e3bc\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Homepunk\.android\build-cache\9f4deb581ef644b4953b9e985a9765d0fe2aff67\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Homepunk\.android\build-cache\41a454763f796b462fd8c4e215c84bc18de0154d\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Homepunk\.android\build-cache\467a3ffcda66ac8a2e884d80dd4c3bbdb4945ad4\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Homepunk\.android\build-cache\e23c9f480a012ab1fc40872d75ca360fcd402a1f\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Homepunk\.android\build-cache\5570f022e4ad648819786998fa21296863efcf18\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Homepunk\.android\build-cache\1dbe97eef968478df045f4f0e185a07ed2680571\output\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.0.2] C:\Users\Homepunk\.android\build-cache\56ba277f3091d16f5dd77249b2c690fef38657ca\output\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Homepunk\.android\build-cache\7e94595b29fa78b37e30012d27cdc8debf40d79d\output\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.0.2] C:\Users\Homepunk\.android\build-cache\56ba277f3091d16f5dd77249b2c690fef38657ca\output\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Homepunk\.android\build-cache\7e94595b29fa78b37e30012d27cdc8debf40d79d\output\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Homepunk\.android\build-cache\1e2ed5923bd84c5d37ce311f453e49b554f49031\output\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Homepunk\.android\build-cache\1e2ed5923bd84c5d37ce311f453e49b554f49031\output\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Homepunk\.android\build-cache\1e2ed5923bd84c5d37ce311f453e49b554f49031\output\AndroidManifest.xml:26:13-58

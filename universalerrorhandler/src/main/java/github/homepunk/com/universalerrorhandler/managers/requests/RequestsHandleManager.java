@@ -1,4 +1,4 @@
-package github.homepunk.com.universalerrorhandler.managers;
+package github.homepunk.com.universalerrorhandler.managers.requests;
 
 import com.squareup.okhttp.Response;
 import com.squareup.okhttp.ResponseBody;
