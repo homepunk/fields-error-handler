@@ -12,8 +12,40 @@ dependencies {
 ```
 # Using old school way
 --------
- 
+```java
+    public class LoginFragment extends Fragment {
+    EditText mEmailEditText;
+    EditText mPasswordEditText;
+    TextInputLayout mEmailInputLayout;
+    TextInputLayout mPasswordInputLayout;
 
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View root = inflater.inflate(R.layout.fragment_login, container, false);
+        bind(root);
+
+        UniversalHandleManager.getFieldsHandleManager(this)
+                .target(mEmailEditText, EMAIL)
+                .target(mPasswordEditText, PASSWORD).validate(target -> target.length() > 1)
+                .setHandleListener((targetType, isSuccess) -> {
+                    switch (targetType) {
+                        case EMAIL: {
+                            showError("Email is not valid");
+                            break;
+                        }
+                        case PASSWORD: {
+                            showError("Password can't be empty");
+                            break;
+                        }
+                    }
+                });
+
+        return root;
+    }
+   }
+```
 # Using annotations
 --------
   - Setup validated field by using `@HandleField` annoation.
