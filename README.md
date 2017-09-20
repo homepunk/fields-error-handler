@@ -5,8 +5,8 @@ Field validator for Android EditText's which uses both old school programmatic w
 # Using annotations
   - Setup validated field by using `@HandleField` annoation.
   - Setup method that will receive the result of validating the fields using `@OnFieldHandleResult` annonation.
-  - Bind target activity or fragment where your fields places using `UersalHandleManager.target(target)` method.
-  - Finally bind destination class where your recieving method places using `UersalHandleManager.destination(destination)` method.
+  - Bind target activity or fragment where your fields places using `UniversalHandleManager.target(target)` method.
+  - Finally bind destination class where your recieving method places using `UniversalHandleManager.destination(destination)` method.
   
    ```java
   public class RegistrationExampleFragment extends Fragment {
