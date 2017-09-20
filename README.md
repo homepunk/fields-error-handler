@@ -1,7 +1,26 @@
-# Universal Error Handler
+### Universal Error Handler
 
 Field validator for Android EditText's which uses both old school programmatic way to set up validated views or annotation processing to generate boilerplate code for you.
-# Installation
+
+### Supported target types:
+- NAME
+- EMAIL
+- PHONE
+- CREDIT_CARD
+- PASSWORD
+- PASSWORD_CONFIRMATION
+
+### Supported target actions: 
+- ON_CLICK
+- ON_FOCUS
+- ON_FOCUS_MISS
+- ON_TEXT_CHANGE
+- AFTER_TEXT_CHANGE
+- BEFORE_TEXT_CHANGE
+
+Validation conditions use default patterns from the android library and can be simply replaced by setuping your custom validating class
+
+## Installation
 --------
 
 ```groovy
@@ -10,7 +29,7 @@ dependencies {
   annotationProcessor 'com.github.homepunk:universal-error-handler-proccessor:1.0'
 }
 ```
-# Using old school way
+## Using old school way
 --------
 ```java
     public class LoginExampleFragment extends Fragment {
@@ -87,4 +106,15 @@ dependencies {
             }
         }
     }
+```
+### Custom validation conditions
+------
+In order to make your own validator you should simply create class implementing `UniversalValidator` and setup logic in `isValid(String target)` where `target` is a text to validate
+```java
+public class ExampleValidator implements UniversalValidator {
+    @Override
+    public boolean isValid(String target) {
+        return false;
+    }
+}
 ```
