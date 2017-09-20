@@ -10,6 +10,9 @@ dependencies {
   annotationProcessor 'com.github.homepunk:universal-error-handler-proccessor:1.2'
 }
 ```
+# Using old school way
+--------
+ 
 
 # Using annotations
 --------
