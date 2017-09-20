@@ -1,19 +1,20 @@
 Universal Error Handler :v:
 ==================
+--------
 
 Field validator for Android EditText's which uses both old school programmatic way to set up validated views or annotation processing to generate boilerplate code for you.
 
 #### Supported target types:
-* `NAME`
-* `EMAIL`
-* `PHONE`
-* `CREDIT_CARD`
-* `PASSWORD`
-* `PASSWORD_CONFIRMATION`
+* _`NAME`_
+* _`EMAIL`_
+* _`PHONE`_
+* _`CREDIT_CARD`_
+* _`PASSWORD`_
+* _`PASSWORD_CONFIRMATION`_
 
 #### Supported target actions: 
 - _`ON_CLICK`_
-- _`ON_FOCUS_
+- _`ON_FOCUS`_
 - _`ON_FOCUS_MISS`_
 - _`ON_TEXT_CHANGE`_
 - _`AFTER_TEXT_CHANGE`_
