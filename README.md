@@ -64,7 +64,7 @@ dependencies {
     }
    }
 ```
-# Using annotations
+### Using annotations
 --------
   - Setup validated field by using `@HandleField` annoation.
   - Setup method that will receive the result of validating the fields using `@OnFieldHandleResult` annonation.
@@ -109,7 +109,7 @@ dependencies {
 ```
 ### Custom validation conditions
 ------
-In order to make your own validator you should simply create class implementing `UniversalValidator` and setup logic in `isValid(String target)` where `target` is a text to validate
+In order to make your own validator you should simply create class implementing `UniversalValidator` and setup logic in `isValid(String target)` method where `target` is a text to validate
 ```java
 public class ExampleValidator implements UniversalValidator {
     @Override
