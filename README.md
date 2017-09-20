@@ -6,8 +6,8 @@ Field validator for Android EditText's which uses both old school programmatic w
 
 ```groovy
 dependencies {
-  compile 'com.github.homepunk:universal-error-handler:1.2'
-  annotationProcessor 'com.github.homepunk:universal-error-handler-proccessor:1.2'
+  compile 'com.github.homepunk:universal-error-handler:1.0'
+  annotationProcessor 'com.github.homepunk:universal-error-handler-proccessor:1.0'
 }
 ```
 # Using old school way
@@ -19,7 +19,6 @@ dependencies {
     TextInputLayout mEmailInputLayout;
     TextInputLayout mPasswordInputLayout;
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -30,14 +29,16 @@ dependencies {
                 .target(mEmailEditText, EMAIL)
                 .target(mPasswordEditText, PASSWORD).validate(target -> target.length() > 1)
                 .setHandleListener((targetType, isSuccess) -> {
-                    switch (targetType) {
-                        case EMAIL: {
-                            showError("Email is not valid");
-                            break;
-                        }
-                        case PASSWORD: {
-                            showError("Password can't be empty");
-                            break;
+                    if (!isSuccess) {
+                        switch (targetType) {
+                            case EMAIL: {
+                                showError("Email is not valid");
+                                break;
+                            }
+                            case PASSWORD: {
+                                showError("Password can't be empty");
+                                break;
+                            }
                         }
                     }
                 });
