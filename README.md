@@ -64,7 +64,7 @@ in progress
 ```
 ## Using annotations
 --------
-  - Setup validated field by using `@HandleField` annoation.
+  - Setup validated field by using `@HandleField` annoation (Default action is _`ON_FOCUS_MISS`_)
   - Setup method that will receive the result of validating the fields using `@OnFieldHandleResult` annonation.
   - Finally Bind class where fields should be proccessed using `UniversalHandleManager.bind(class)` or bind target activity or fragment where your fields places separetly use `UniversalHandleManager.bindTarget(target)` method and for destination class where your recieving method places use `UniversalHandleManager.bindDestination(destination)` method.
   
@@ -74,8 +74,6 @@ in progress
     EditText mEmail;
     @HandleField(value = PASSWORD, action = ON_TEXT_CHANGE)
     EditText mPassword;
-    @HandleField(PASSWORD_CONFIRMATION)
-    EditText mPasswordConfirmation;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -87,7 +85,7 @@ in progress
         return root;
     }
 
-    @OnFieldHandleResult("RegistrationFragment")
+    @OnFieldHandleResult("RegistrationExampleFragment")
     public void onFieldsHandleResult(int fieldType, boolean isSuccess) {
         switch (fieldType) {
             case EMAIL: {
@@ -96,10 +94,6 @@ in progress
             }
             case PASSWORD: {
                 showError("Password can't be empty");
-                break;
-            }
-            case PASSWORD_CONFIRMATION: {
-                showError("Password don't match");
                 break;
             }
         }
