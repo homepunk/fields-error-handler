@@ -1,5 +1,5 @@
 # Universal Error Handler
-============
+--------
 
 Field validator for Android EditText's which uses both old school programmatic way to set up validated views or annotation processing to generate boilerplate code for you.
 # Installation
@@ -13,7 +13,7 @@ dependencies {
 ```
 
 # Using annotations
-============
+--------
   - Setup validated field by using `@HandleField` annoation.
   - Setup method that will receive the result of validating the fields using `@OnFieldHandleResult` annonation.
   - Finally Bind class where fields should be proccessed using `UniversalHandleManager.bind(class)` or bind target activity or fragment where your fields places separetly use `UniversalHandleManager.bindTarget(target)` method and for destination class where your recieving method places use `UniversalHandleManager.bindDestination(destination)` method.
