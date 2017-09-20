@@ -87,17 +87,19 @@ in progress
 
     @OnFieldHandleResult("RegistrationExampleFragment")
     public void onFieldsHandleResult(int fieldType, boolean isSuccess) {
-        switch (fieldType) {
-            case EMAIL: {
-                showError("Email not correct");
-                break;
-            }
-            case PASSWORD: {
-                showError("Password can't be empty");
-                break;
+        if (!isSuccess) {
+            switch (fieldType) {
+                case EMAIL: {
+                    showError("Email not correct");
+                    break;
+                }
+                case PASSWORD: {
+                    showError("Password can't be empty");
+                    break;
+                }
             }
         }
-    }
+     }
 ```
 ### Custom validation conditions
 ------
