@@ -14,8 +14,8 @@ dependencies {
 --------
 ```java
     public class LoginExampleFragment extends Fragment {
-    EditText mEmailEditText;
-    EditText mPasswordEditText;
+    EditText mEmail;
+    EditText mPassword;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -24,8 +24,8 @@ dependencies {
         bind(root);
 
         UniversalHandleManager.getFieldsHandleManager(this)
-                .target(mEmailEditText, EMAIL)
-                .target(mPasswordEditText, PASSWORD).validate(target -> target.length() > 1)
+                .target(mEmail, EMAIL)
+                .target(mPassword, PASSWORD).validate(target -> target.length() > 1)
                 .setHandleListener((targetType, isSuccess) -> {
                     if (!isSuccess) {
                         switch (targetType) {
