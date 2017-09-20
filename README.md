@@ -3,20 +3,20 @@
 Field validator for Android EditText's which uses both old school programmatic way to set up validated views or annotation processing to generate boilerplate code for you.
 
 ### Supported target types:
-* _NAME
-* _EMAIL
-* _PHONE
-* _CREDIT_CARD
-* _PASSWORD
-* _PASSWORD_CONFIRMATION
+* _NAME_
+* _EMAIL_
+* _PHONE_
+* _CREDIT_CARD_
+* _PASSWORD_
+* _PASSWORD_CONFIRMATION_
 
 ### Supported target actions: 
-- _ON_CLICK
-- _ON_FOCUS
-- _ON_FOCUS_MISS
-- _ON_TEXT_CHANGE
-- _AFTER_TEXT_CHANGE
-- _BEFORE_TEXT_CHANGE
+- _ON_CLICK_
+- _ON_FOCUS_
+- _ON_FOCUS_MISS_
+- _ON_TEXT_CHANGE_
+- _AFTER_TEXT_CHANGE_
+- _BEFORE_TEXT_CHANGE_
 
 Validation conditions use default patterns from the android library and can be simply replaced by setuping your custom validating class
 
