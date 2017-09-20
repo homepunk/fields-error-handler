@@ -13,11 +13,9 @@ dependencies {
 # Using old school way
 --------
 ```java
-    public class LoginFragment extends Fragment {
+    public class LoginExampleFragment extends Fragment {
     EditText mEmailEditText;
     EditText mPasswordEditText;
-    TextInputLayout mEmailInputLayout;
-    TextInputLayout mPasswordInputLayout;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
