@@ -27,8 +27,9 @@ Validation conditions use default patterns from the android library and can be s
 ```groovy
 in progress
 ```
-## Using old school way
+# Fields validation
 --------
+## Using old school way
 ```java
     public class LoginExampleFragment extends Fragment {
     EditText mEmail;
@@ -63,7 +64,6 @@ in progress
    }
 ```
 ## Using annotations
---------
   - Setup validated field by using `@HandleField` annoation (Default action is _`ON_FOCUS_MISS`_)
   - Setup method that will receive the result of validating the fields using `@OnFieldHandleResult` annonation.
   - Finally Bind class where fields should be proccessed using `UniversalHandleManager.bind(class)` or bind target activity or fragment where your fields places separetly use `UniversalHandleManager.bindTarget(target)` method and for destination class where your recieving method places use `UniversalHandleManager.bindDestination(destination)` method.
@@ -102,7 +102,6 @@ in progress
      }
 ```
 ### Custom validation conditions
-------
 In order to make your own validator you should simply create class implementing `UniversalValidator` and setup logic in `isValid(String target)` method where `target` is a text to validate
 ```java
 public class ExampleValidator implements UniversalValidator {
@@ -112,3 +111,8 @@ public class ExampleValidator implements UniversalValidator {
     }
 }
 ```
+------
+
+# Response errors
+------
+In progress
