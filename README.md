@@ -1,4 +1,4 @@
-Universal Error Handler :v:
+Fields Error Handler :v:
 --------
 
 Field validator for Android EditText's which uses both old school programmatic way to set up validated views or annotation processing to generate boilerplate code for you.
@@ -27,8 +27,7 @@ Validation conditions use default patterns from the android library and can be s
 ```groovy
 in progress
 ```
-# Fields validation
---------
+
 ## Using old school way
 ```java
     public class LoginExampleFragment extends Fragment {
