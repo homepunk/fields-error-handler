@@ -40,21 +40,20 @@ in progress
         View root = inflater.inflate(R.layout.fragment_login, container, false);
         bind(root);
 
-        UniversalHandleManager.getFieldsHandleManager(this)
-                .target(mEmail, EMAIL)
-                .target(mPassword, PASSWORD).validate(target -> target.length() > 1)
-                .setHandleListener((targetType, isSuccess) -> {
-                    if (!isSuccess) {
-                        switch (targetType) {
-                            case EMAIL: {
-                                showError("Email is not valid");
-                                break;
-                            }
-                            case PASSWORD: {
-                                showError("Password can't be empty");
-                                break;
-                            }
-                        }
+       UniversalHandleManager.getFieldsHandleManager(this)
+                .target(mName, NAME, ON_FOCUS_MISS)
+                .target(mPhone, PHONE, FieldHandler.builder()
+                        .appendError(201, R.string.error_phone_required, target -> target.length() > 8)
+                        .setMask("+(###)##-##-###", '#')
+                        .build(), ON_FOCUS, ON_FOCUS_MISS, ON_TEXT_CHANGE)
+                .target(mEmail, EMAIL, FieldHandler.builder()
+                        .appendError(202, R.string.error_field_required, String::isEmpty)
+                        .appendError(203, R.string.error_email_contain_spaces, target -> target.contains(" "))
+                        .build())
+                .target(mPassword, PASSWORD)
+                .setHandleListener(handleResult -> {
+                    if (!handleResult.isSuccess()) {
+                        showError(handleResult.getMessage());
                     }
                 });
 
