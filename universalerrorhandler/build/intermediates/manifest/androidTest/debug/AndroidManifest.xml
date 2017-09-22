@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="github.homepunk.com.universalerrorhandler.test" >
+    package="github.homepunk.com.fieldserrorhandler.test" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for github.homepunk.com.universalerrorhandler.test"
-        android:targetPackage="github.homepunk.com.universalerrorhandler.test" />
+        android:label="Tests for github.homepunk.com.fieldserrorhandler.test"
+        android:targetPackage="github.homepunk.com.fieldserrorhandler.test" />
 
     <application
         android:allowBackup="true"

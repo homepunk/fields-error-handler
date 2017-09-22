@@ -774,10 +774,14 @@
     <string name="button_action_login">login</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="email">Email</string>
+    <string name="error_email_contain_spaces">"Email address can't contain spaces"</string>
+    <string name="error_email_not_valid">"Email isn't valid"</string>
+    <string name="error_empy_password">"Password can't be empty"</string>
     <string name="error_field_required">This field is required</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
+    <string name="error_password_contain_spaces">"Password can't contain spaces"</string>
+    <string name="error_phone_required">This field is required</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="password">Password</string>
     <string name="password_confirmation">Password confirmation</string>

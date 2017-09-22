@@ -45,9 +45,7 @@ import javax.tools.JavaFileObject;
 public class HandleVisitor extends ElementScanner7<Void, Void> {
     private static final String ANDROID_APP_PACKAGE = "android.app";
     private static final String ANDROID_UTIL_PACKAGE = "android.util";
-    private static final String UNIVERSAL_ERROR_HANDLER_PACKAGE = "github.homepunk.com.universalerrorhandler";
-    private static final String UNIVERSAL_ERROR_HANDLER_MANAGERS_PACKAGE = "github.homepunk.com.universalerrorhandler.managers";
-    private static final String UNIVERSAL_ERROR_HANDLER_HANDLERS_PACKAGE = "github.homepunk.com.universalerrorhandler.handlers";
+    private static final String FIELDS_ERROR_HANDLER_MANAGERS_PACKAGE = "github.homepunk.com.fieldserrorhandler.managers.fields";
     private final CodeBlock.Builder methodBodyBuilder = CodeBlock.builder();
     private final Trees trees;
     // knows where compilation runs, architect folders in builds/intermediate...
@@ -166,12 +164,12 @@ public class HandleVisitor extends ElementScanner7<Void, Void> {
         if (onHandleResultMethod != null) {
             List<? extends VariableElement> onHandleResultMethodParameters = onHandleResultMethod.getParameters();
 
-            TypeSpec fieldsHandleListener = TypeSpec.anonymousClassBuilder("")
-                    .addSuperinterface(getTopLevelClassName("github.homepunk.com.universalerrorhandler.handlers.listeners", "FieldsHandleListener"))
+            TypeSpec handleResultListener = TypeSpec.anonymousClassBuilder("")
+                    .addSuperinterface(getTopLevelClassName("github.homepunk.com.fieldserrorhandler.handlers.interfaces.listeners", "HandleResultListener"))
                     .addMethod(getAnonymousMethodImpl(onHandleResultMethodParameters.size()))
                     .build();
 
-            methodBodyBuilder.addStatement("$T.getFieldsHandleManager(target).setHandleListener($L)", getTopLevelClassName(UNIVERSAL_ERROR_HANDLER_MANAGERS_PACKAGE, "UniversalHandleManager"), fieldsHandleListener);
+            methodBodyBuilder.addStatement("$T.getInstance(target).setOnHandleResultListener($L)", getTopLevelClassName(FIELDS_ERROR_HANDLER_MANAGERS_PACKAGE, "FieldsHandleManager"), handleResultListener);
 
         }
     }
@@ -181,15 +179,14 @@ public class HandleVisitor extends ElementScanner7<Void, Void> {
         MethodSpec.Builder anonymousMethodImplBuilder = MethodSpec.methodBuilder("onFieldHandleResult")
                 .addAnnotation(Override.class)
                 .addModifiers(Modifier.PUBLIC)
-                .addParameter(int.class, "targetType")
-                .addParameter(boolean.class, "isSuccess")
+                .addParameter(getTopLevelClassName("github.homepunk.com.fieldserrorhandler.models", "HandleResult"), "handleResult")
                 .beginControlFlow("if (destination != null)");
 
-        if (destinationParametersSize == 1) {
-            anonymousMethodImplBuilder.addStatement("destination.$N(targetType)", onHandleResultMethod.getSimpleName());
-        } else if (destinationParametersSize == 2) {
-            anonymousMethodImplBuilder.addStatement("destination.$N(targetType, isSuccess)", onHandleResultMethod.getSimpleName());
-        }
+//        if (destinationParametersSize == 1) {
+//            anonymousMethodImplBuilder.addStatement("destination.$N(targetType)", onHandleResultMethod.getSimpleName());
+//        } else if (destinationParametersSize == 2) {
+            anonymousMethodImplBuilder.addStatement("destination.$N(handleResult)", onHandleResultMethod.getSimpleName());
+//        }
 
         return anonymousMethodImplBuilder.endControlFlow().build();
     }
@@ -207,13 +204,13 @@ public class HandleVisitor extends ElementScanner7<Void, Void> {
     }
 
     private void generateFieldsHandlingCodeBlock() {
-        final ClassName universalHandleManagerClassName = getTopLevelClassName(UNIVERSAL_ERROR_HANDLER_MANAGERS_PACKAGE, "UniversalHandleManager");
+        final ClassName universalHandleManagerClassName = getTopLevelClassName(FIELDS_ERROR_HANDLER_MANAGERS_PACKAGE, "FieldsHandleManager");
 
         for (Name targetFieldName : targetFieldNames) {
             int universalFieldType = annotations.get(targetFieldName).value();
             int universalFieldActionType = annotations.get(targetFieldName).action();
 
-            methodBodyBuilder.addStatement("$T.getFieldsHandleManager(target).target(target.$N,$L).handleOnAction($L)",
+            methodBodyBuilder.addStatement("$T.getInstance(target).target(target.$N,$L,$L)",
                     universalHandleManagerClassName,
                     targetFieldName,
                     universalFieldType,

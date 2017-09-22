@@ -24,7 +24,7 @@ import javax.tools.Diagnostic;
 import static javax.lang.model.SourceVersion.RELEASE_7;
 
 @AutoService(Processor.class)
-@SupportedAnnotationTypes({"com.homepunk.github.HandleField", "com.homepunk.github.OnFieldHandleResult"})
+@SupportedAnnotationTypes({"com.homepunk.github.HandleField", "com.homepunk.github.OnFieldsHandleResult"})
 @SupportedSourceVersion(RELEASE_7)
 public class UniversalErrorHandlerProcessor extends AbstractProcessor {
     private Map<TypeElement, HandleVisitor> handleFieldVisitorMap;
@@ -71,16 +71,16 @@ public class UniversalErrorHandlerProcessor extends AbstractProcessor {
     }
 
     private void processOnFieldHandleResultAnnotations(RoundEnvironment roundEnvironment) {
-        final Set<? extends Element> annotatedMethods = roundEnvironment.getElementsAnnotatedWith(OnFieldHandleResult.class);
+        final Set<? extends Element> annotatedMethods = roundEnvironment.getElementsAnnotatedWith(OnFieldsHandleResult.class);
 
         for (Element annotatedElement : annotatedMethods) {
             if (annotatedElement.getKind() != ElementKind.METHOD) {
-                messager.printMessage(Diagnostic.Kind.ERROR, "@OnFieldHandleResult using for methods only", annotatedElement);
+                messager.printMessage(Diagnostic.Kind.ERROR, "@OnFieldsHandleResult using for methods only", annotatedElement);
             }
 
             ExecutableElement method = (ExecutableElement) annotatedElement;
 
-            String handleResultFromClassName = annotatedElement.getAnnotation(OnFieldHandleResult.class).value();
+            String handleResultFromClassName = annotatedElement.getAnnotation(OnFieldsHandleResult.class).value();
 
             for (TypeElement handleFieldParent : handleFieldParents) {
                 String handleFieldParentName = handleFieldParent.getSimpleName().toString();
@@ -89,7 +89,7 @@ public class UniversalErrorHandlerProcessor extends AbstractProcessor {
                     if (handleFieldVisitorMap.get(handleFieldParent) != null) {
                         handleFieldVisitorMap.get(handleFieldParent).visitExecutable(method, null);
                     } else {
-                        messager.printMessage(Diagnostic.Kind.ERROR, "ERRRO");
+                        messager.printMessage(Diagnostic.Kind.ERROR, "ERROR");
                     }
                 }
             }

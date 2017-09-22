@@ -9,15 +9,16 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 
 import com.homepunk.github.HandleField;
-import com.homepunk.github.OnFieldHandleResult;
+import com.homepunk.github.OnFieldsHandleResult;
 
 import github.homepunk.com.example.R;
-import github.homepunk.com.universalerrorhandler.managers.UniversalHandleManager;
+import github.homepunk.com.fieldserrorhandler.managers.fields.FieldsHandleManager;
+import github.homepunk.com.fieldserrorhandler.models.HandleResult;
 
-import static com.homepunk.github.models.UniversalFieldAction.ON_TEXT_CHANGE;
-import static com.homepunk.github.models.UniversalFieldType.EMAIL;
-import static com.homepunk.github.models.UniversalFieldType.PASSWORD;
-import static com.homepunk.github.models.UniversalFieldType.PASSWORD_CONFIRMATION;
+import static com.homepunk.github.models.TargetAction.ON_TEXT_CHANGE;
+import static com.homepunk.github.models.TargetType.EMAIL;
+import static com.homepunk.github.models.TargetType.PASSWORD;
+import static com.homepunk.github.models.TargetType.PASSWORD_CONFIRMATION;
 
 public class RegistrationFragment extends Fragment {
     @HandleField(EMAIL)
@@ -35,10 +36,8 @@ public class RegistrationFragment extends Fragment {
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_registration, container, false);
         bindViews(root);
-
-        UniversalHandleManager.target(this);
-        UniversalHandleManager.destination(this);
-
+        FieldsHandleManager.bindTarget(this);
+        FieldsHandleManager.bindDestination(this);
         return root;
     }
 
@@ -51,24 +50,22 @@ public class RegistrationFragment extends Fragment {
         mPasswordConfirmationInputLayout = root.findViewById(R.id.fragment_registration_password_confirmation_input_layout);
     }
 
-    @OnFieldHandleResult("RegistrationFragment")
-    public void onFieldsHandleResult(int fieldType, boolean isSuccess) {
-        switch (fieldType) {
+    @OnFieldsHandleResult("RegistrationFragment")
+    public void onFieldsHandleResult(HandleResult handleResult) {
+        String resultMessage = handleResult.getMessage();
+
+        switch (handleResult.getTargetType()) {
             case EMAIL: {
-                handleResult(mEmailInputLayout, isSuccess, "Email not correct");
+                mEmailInputLayout.setError(resultMessage);
                 break;
             }
             case PASSWORD: {
-                handleResult(mPasswordConfirmationInputLayout, isSuccess, "Password can't be empty");
+                mPasswordInputLayout.setError(resultMessage);
                 break;
             }
             case PASSWORD_CONFIRMATION: {
-                handleResult(mPasswordConfirmationInputLayout, isSuccess, "Password don't match");
+                mPasswordConfirmationInputLayout.setError(resultMessage);
             }
         }
-    }
-
-    private void handleResult(TextInputLayout inputLayout, boolean isSuccess, String message) {
-        inputLayout.setError(isSuccess ? "" : message);
     }
 }
