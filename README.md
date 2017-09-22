@@ -31,29 +31,25 @@ in progress
 ## Using old school way
 ```java
     public class LoginExampleFragment extends Fragment {
-    EditText mEmail;
-    EditText mPassword;
-
+    public static final int EMAIL_NOT_VALID = 201;
+    public static final int EMAIL_CANT_CONTAIN_SPACES = 202;
+    private EditText mEmail;
+    private EditText mPassword;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_login, container, false);
         bind(root);
 
-       UniversalHandleManager.getFieldsHandleManager(this)
-                .target(mName, NAME, ON_FOCUS_MISS)
-                .target(mPhone, PHONE, FieldHandler.builder()
-                        .appendError(201, R.string.error_phone_required, target -> target.length() > 8)
-                        .setMask("+(###)##-##-###", '#')
-                        .build(), ON_FOCUS, ON_FOCUS_MISS, ON_TEXT_CHANGE)
+        FieldsHandleManager.getInstance(this)
+                .target(mPassword, PASSWORD, ON_FOCUS_MISS, ON_TEXT_CHANGE)
                 .target(mEmail, EMAIL, FieldHandler.builder()
-                        .appendError(202, R.string.error_field_required, String::isEmpty)
-                        .appendError(203, R.string.error_email_contain_spaces, target -> target.contains(" "))
+                        .handle(EMAIL_NOT_VALID, "Email can't contain spaces", target -> !target.contains(" "))
+                        .handle(EMAIL_CANT_CONTAIN_SPACES, R.string.error_email_not_valid, target -> Patterns.EMAIL_ADDRESS.matcher(target).matches())
                         .build())
-                .target(mPassword, PASSWORD)
-                .setHandleListener(handleResult -> {
-                    if (!handleResult.isSuccess()) {
-                        showError(handleResult.getMessage());
+                .setOnHandleResultListener(result -> {
+                    if (!result.isSuccess()) {
+                        showError(result.getMessage());
                     }
                 });
 
