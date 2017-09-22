@@ -31,8 +31,9 @@ in progress
 ## Using old school way
 ```java
     public class LoginExampleFragment extends Fragment {
-    public static final int EMAIL_NOT_VALID = 201;
-    public static final int EMAIL_CANT_CONTAIN_SPACES = 202;
+    public static final int CODE_EMAIL_NOT_VALID = 201;
+    public static final int CODE_EMAIL_CONTAIN_SPACES = 202;
+    public static final Pattern EMAIL_PATTERN = Patterns.EMAIL_ADDRESS;
     private EditText mEmail;
     private EditText mPassword;
     @Override
@@ -43,9 +44,9 @@ in progress
 
         FieldsHandleManager.getInstance(this)
                 .target(mPassword, PASSWORD, ON_FOCUS_MISS, ON_TEXT_CHANGE)
-                .target(mEmail, EMAIL, FieldHandler.builder()
-                        .handle(EMAIL_NOT_VALID, "Email can't contain spaces", target -> !target.contains(" "))
-                        .handle(EMAIL_CANT_CONTAIN_SPACES, R.string.error_email_not_valid, target -> Patterns.EMAIL_ADDRESS.matcher(target).matches())
+                 .target(mEmail, EMAIL, FieldHandler.builder()
+                        .handle(CODE_EMAIL_NOT_VALID, "Email isn't valid", target -> EMAIL_PATTERN.matcher(target).matches())
+                        .handle(CODE_EMAIL_CONTAIN_SPACES, R.string.error_email_contain_spaces, target -> !target.contains(" "))
                         .build())
                 .setOnHandleResultListener(result -> {
                     if (!result.isSuccess()) {
