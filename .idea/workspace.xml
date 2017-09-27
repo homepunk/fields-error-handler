@@ -11,60 +11,142 @@
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/EmailHandler.java" line="4" />
+    <bookmark url="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/EmailHandler.java" line="6" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a48d6a80-0611-491c-ac7b-ff8e66fcda63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/ExampleHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetErrorType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/UniversalErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/builders/FieldHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/FieldsErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/BaseTargetHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/CreditCardHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/EmailHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/NameHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PasswordHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PhoneHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/ParticularHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/TargetHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/HandleErrorResultListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/HandleResultListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/HandleSuccessResultListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/models/HandleResult.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/github/homepunk/com/universalerrorhandler/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalResultType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/buildConfig/androidTest/debug/github/homepunk/com/universalerrorhandler/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/buildConfig/debug/github/homepunk/com/universalerrorhandler/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/github/homepunk/com/universalerrorhandler/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/github/homepunk/com/universalerrorhandler/test/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/github/homepunk/com/universalerrorhandler/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/UniversalErrorHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/FieldsErrorHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/CreditCardValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/EmailValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/NameValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/PasswordValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/PhoneValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/interfaces/UniversalValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/listeners/ErrorResultListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/listeners/FieldsHandleListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/listeners/SuccessResultListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/requests/RequestsErrorHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/requests/RequestsHandleManager.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/OnFieldHandleResult.java" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/OnFieldsHandleResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/Constants.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/Constants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/listeners/FieldManagerListener.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/FieldManagerListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/listeners/RequestsHandleListener.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/RequestsHandleListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/UniversalHandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/HandleManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/annotations/AnnotationsHandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/annotations/AnnotationsHandleManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/fields/FieldsActionManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsActionManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/fields/FieldsHandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsHandleManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/wrappers/TextWatcherWrapper.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/wrappers/TextWatcherWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/Target.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/TargetDestination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/CardHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/CustomTargetHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/EmailHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/NameHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/PasswordHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/PhoneHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/interfaces/Handler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/FieldsHandleManager.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/ExampleHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/UniversalErrorHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/CreditCardHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/EmailHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/NameHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PasswordHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PhoneHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/TargetHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/FieldManagerListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/RequestsHandleListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/HandleManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsHandleManager.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/Constants.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/models/Constants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/builders/FieldHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/TargetHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/FieldsErrorHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/HandleManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/BaseTargetHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/BaseHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/ParticularHandler.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/interfaces/ParticularHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/annotations/AnnotationsHandleManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/AnnotationsManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsActionManager.java" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/HandleActionsManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -73,37 +155,120 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_universalerrorhandler_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-26.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-26.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-debug.aar" afterPath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-release.aar" afterPath="$PROJECT_DIR$/universalerrorhandler/build/outputs/aar/universalerrorhandler-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build.gradle" afterPath="$PROJECT_DIR$/sample/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/compat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreui/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreutils/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/fragment/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/mediacompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/transition/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/transition/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v4/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/github/homepunk/com/example/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/github/homepunk/com/example/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/sample/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/sample/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/sample/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/sample.iml" afterPath="$PROJECT_DIR$/sample/sample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/LoginFragment.java" afterPath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/LoginFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/registration/RegistrationFragment.java" afterPath="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/registration/RegistrationFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/res/layout/fragment_registration.xml" afterPath="$PROJECT_DIR$/sample/src/main/res/layout/fragment_registration.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleField.java" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/UniversalErrorHandlerProcessor.java" afterPath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/UniversalErrorHandlerProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleVisitor.java" afterPath="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/bundles/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/bundles/default/AndroidManifest.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/bundles/default/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetAction.java" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetErrorType.java" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetErrorType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetType.java" afterPath="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build.gradle" afterPath="$PROJECT_DIR$/universalerrorhandler/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/compat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/coreui/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/coreutils/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/fragment/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/graphics/drawable/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/graphics/drawable/animated/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/mediacompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/v4/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/androidTest/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/compat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/coreui/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/coreutils/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/fragment/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/mediacompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/v4/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/universalerrorhandler/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-land.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v26.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values-v26.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/anim.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/anim.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-land.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v26.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values-v26.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/anim.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/bundles/debug/R.txt" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/bundles/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-land/values-land.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-land/values-land.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v21/values-v21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v26/values-v26.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v26/values-v26.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/manifests/aapt/release/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values-land/values-land.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values-land/values-land.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values-sw600dp-v13/values-sw600dp-v13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values-v21/values-v21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values-v26/values-v26.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values-v26/values-v26.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values/values.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/androidTest/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values-land/values-land.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values-land/values-land.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values-v21/values-v21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values-v26/values-v26.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values-v26/values-v26.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="$PROJECT_DIR$/universalerrorhandler/build/intermediates/symbols/androidTest/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universalerrorhandler/universalerrorhandler.iml" afterPath="$PROJECT_DIR$/universalerrorhandler/universalerrorhandler.iml" />
     </list>
     <ignored path="Universal-Error-Handler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,7 +292,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state />
+        </projects_view>
       </state>
     </system>
   </component>
@@ -137,10 +304,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="FieldsHandleManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsHandleManager.java">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/FieldsHandleManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="123" column="103" selection-start-line="123" selection-start-column="103" selection-end-line="123" selection-end-column="103" />
+            <state relative-caret-position="502">
+              <caret line="137" column="110" selection-start-line="137" selection-start-column="110" selection-end-line="137" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,55 +315,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FieldsErrorHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/FieldsErrorHandler.java">
+      <file leaf-file-name="TargetDestination.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/TargetDestination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state relative-caret-position="179">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextInputLayout.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/26.1.0/c7ac62df01dd0a97d93500ad3da7faebf03ba49/design-26.1.0-sources.jar!/android/support/design/widget/TextInputLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/LoginFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinearLayout.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/widget/LinearLayout.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewGroup.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/view/ViewGroup.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TargetHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/TargetHandler.java">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/TargetHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/LoginFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="41" column="113" selection-start-line="41" selection-start-column="113" selection-end-line="41" selection-end-column="113" />
+            <state relative-caret-position="292">
+              <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1789#1824#0" expanded="true" />
-                <element signature="e#1926#1961#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParticularHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/ParticularHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegistrationFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/registration/RegistrationFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="62" column="56" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="56" />
+            <state relative-caret-position="366">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,48 +401,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FieldHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/builders/FieldHandler.java">
+      <file leaf-file-name="TargetErrorType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetErrorType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+            <state relative-caret-position="357">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTargetHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/BaseTargetHandler.java">
+      <file leaf-file-name="Target.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/Target.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="400">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="9" />
               <folding>
-                <element signature="e#1818#1819#0" expanded="true" />
-                <element signature="e#1847#1848#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FieldsActionManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsActionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/EmailHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -906,6 +1087,11 @@
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare ru.egslava:MaskedEditText:1.0.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareRuEgslavaMaskedEditText105Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'Universal-Error-Handler'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
@@ -1276,6 +1462,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sample" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare ru.egslava:MaskedEditText:1.0.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sample" />
+                <option name="name" value="prepareRuEgslavaMaskedEditText105Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -1995,6 +2186,11 @@
                 <option name="name" value="bundleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/universalerrorhandler" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/universalerrorhandler" />
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
@@ -2286,6 +2482,11 @@
                 <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/universalerrorhandler" />
+                <option name="name" value="prepareComAndroidSupportDesign2610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/universalerrorhandler" />
                 <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
               </ExternalTaskPojo>
@@ -2297,6 +2498,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/universalerrorhandler" />
                 <option name="name" value="compileReleaseUnitTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:transition:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/universalerrorhandler" />
+                <option name="name" value="prepareComAndroidSupportTransition2610Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
@@ -2930,7 +3136,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\Homepunk\Documents\github\Universal-Error-Handler" value="9025971890854" />
+        <entry key="C:\Users\Homepunk\Documents\github\Universal-Error-Handler" value="9029438901442" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3848,40 +4054,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/CreditCardValidator.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/PhoneValidator.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/UniversalErrorHandlerProcessor.java" />
-        <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/ExampleValidator.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/handlers/fields/validators/EmailValidator.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalFieldAction.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/fields/FieldsActionManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/managers/fields/FieldsHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/universalerrorhandler/models/HandleResult.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/models/HandleResult.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/FieldHandleAction.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetHandleAction.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetErrorType.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/RegisteredTypeValidator.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/builders/HandleBuilder.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/builders/FieldHandleBuilder.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/builders/FieldHandleSpec.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/UniversalHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/RegisteredValidator.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/HandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/annotations/AnnotationsHandleManager.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/UniversalErrorHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/FieldsErrorHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/TargetValidator.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/NameValidator.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/CreditCardHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PhoneHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/NameHandler.java" />
-        <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/ExampleHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/builders/FieldHandler.java" />
-        <option value="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/registration/RegistrationFragment.java" />
-        <option value="$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/auth/registration/RegistrationFragment_FieldHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/HandleVisitor.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/ParticularValidator.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/ParticularHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PasswordHandler.java" />
@@ -3894,11 +4066,45 @@
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/interfaces/ErrorHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/interfaces/TargetHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/BaseParticularHandler.java" />
-        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/EmailHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/FieldsErrorHandler.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsActionManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/NameHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/EmailHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PhoneHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PasswordVerificationHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/RequestsHandleListener.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/UniversalErrorHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/FieldsErrorHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/HandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/FieldsHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/models/Constants.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/annotations/AnnotationsHandleManager.java" />
         <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/HandleActionsManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/AnnotationsHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/AnnotationsManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/TargetBuilder.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/FieldHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/Target.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/CustomTargetHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/HandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/interfaces/Handler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetType.java" />
+        <option value="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/sample/src/main/res/layout/fragment_registration.xml" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/BaseHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/NameHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/PhoneHandler.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/TargetHandler.java" />
+        <option value="$PROJECT_DIR$/sample/build.gradle" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/build.gradle" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/DestiantionBuilder.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/DestinationBuilder.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/FieldsHandleManager.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/TargetDestination.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/LoginFragment.java" />
+        <option value="$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetErrorType.java" />
+        <option value="$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/registration/RegistrationFragment.java" />
       </list>
     </option>
   </component>
@@ -3966,9 +4172,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Universal-Error-Handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -4240,7 +4452,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="managers" />
+              <option name="myItemId" value="handlers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4274,11 +4486,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="managers" />
+              <option name="myItemId" value="handlers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fields" />
+              <option name="myItemId" value="validators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Universal-Error-Handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Universal-Error-Handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universalerrorhandler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fieldserrorhandler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4522,15 +4768,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Universal-Error-Handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -4547,9 +4787,11 @@
     <property name="DEBUGGABLE_PROCESS" value="github.homepunk.com.example" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SearchEverywhereHistoryKey" value="builder&#9;ACTION&#9;ReplaceConstructorWithBuilder&#10;Builder&#9;FILE&#9;jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/com/sun/xml/internal/ws/policy/jaxws/BuilderHandler.class" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="github.homepunk.com.fieldserrorhandler.builders" />
       <recent name="github.homepunk.com.universalerrorhandler.managers" />
     </key>
     <key name="android.template.packageName">
@@ -4560,6 +4802,7 @@
       <recent name="C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\src\main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="github.homepunk.com.fieldserrorhandler" />
       <recent name="github.homepunk.com.example" />
       <recent name="github.homepunk.com.universalerrorhandler" />
       <recent name="com.github.homepunk.processor" />
@@ -4884,6 +5127,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a48d6a80-0611-491c-ac7b-ff8e66fcda63" name="Default" comment="" />
@@ -4904,7 +5150,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -4913,8 +5159,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1730" height="866" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.10107527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="-8" y="-8" width="1936" height="1066" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="95" width="1724" height="863" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.10107527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1912" y="57" width="1296" height="1010" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="1920" y="88" width="1280" height="971" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4923,8 +5170,8 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4936,7 +5183,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -4998,251 +5244,214 @@
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsHandleManager.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsActionManager.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsHandleManager.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/EmailHandler.java</url>
+          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/EmailHandler.java</url>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/PhoneHandler.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="103" />
+      <option name="time" value="105" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/util/Map.class">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/BaseHandler.java" />
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/CardHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/util/HashMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/requests/RequestsErrorHandler.java" />
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/requests/RequestsHandleManager.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/499341a875fe72e8fcf4ba856ba15f498d348e38/javapoet-1.8.0-sources.jar!/com/squareup/javapoet/CodeBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5253">
-          <caret line="344" column="19" selection-start-line="344" selection-start-column="19" selection-end-line="344" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/GradlePluginTest.java" />
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/visitors/GradlePlugin.java" />
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/HandleField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/UniversalResultType.java" />
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/interfaces/listeners/HandleSuccessResultListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/interfaces/listeners/HandleErrorResultListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/util/Patterns.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/universalerrorhandler-annotations.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/com/sun/nio/sctp/HandlerResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-processors/src/main/java/com/homepunk/github/UniversalErrorHandlerProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="91" column="75" selection-start-line="91" selection-start-column="75" selection-end-line="91" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/models/HandleResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/499341a875fe72e8fcf4ba856ba15f498d348e38/javapoet-1.8.0-sources.jar!/com/squareup/javapoet/TypeSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="361" column="28" selection-start-line="361" selection-start-column="28" selection-end-line="361" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/499341a875fe72e8fcf4ba856ba15f498d348e38/javapoet-1.8.0-sources.jar!/com/squareup/javapoet/MethodSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
-          <folding>
-            <element signature="e#5743#5744#0" expanded="false" />
-            <element signature="e#5777#5778#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/HandleManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/annotations/AnnotationsHandleManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.1.0/8279b00f5194701ff18363fa2958c5a26670b0ef/support-fragment-26.1.0-sources.jar!/android/support/v4/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="190" column="13" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="68" column="154" selection-start-line="68" selection-start-column="154" selection-end-line="68" selection-end-column="154" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/content/ComponentCallbacks2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PhoneHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/ExampleHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/interfaces/listeners/HandleResultListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/build/generated/source/apt/debug/github/homepunk/com/example/auth/registration/RegistrationFragment_FieldHandler.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/FieldsErrorHandler.java" />
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/interfaces/ParticularHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.egslava/MaskedEditText/1.0.5/fb0de3466cf16b7b100f621d88cdd9aabd197eb/MaskedEditText-1.0.5-sources.jar!/br/com/sapereaude/maskedEditText/MaskedEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/android/support/v7/widget/AppCompatEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/EmailHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="87" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
+          <folding>
+            <element signature="e#1307#1308#0" expanded="true" />
+            <marker date="1506521120288" expanded="true" signature="1318:1325" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PasswordVerificationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/HandleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/FieldManagerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/HandleErrorResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/HandleResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/HandleSuccessResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/listeners/RequestsHandleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/util/SparseArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.1.0/8279b00f5194701ff18363fa2958c5a26670b0ef/support-fragment-26.1.0-sources.jar!/android/support/v4/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38906">
+          <caret line="244" column="20" selection-start-line="244" selection-start-column="20" selection-end-line="244" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/view/LayoutInflater.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/widget/EditText.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/FieldsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/models/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/AnnotationsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/com/sun/xml/internal/ws/policy/jaxws/BuilderHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/26.1.0/73bfdb5cca1949a51219d3676700996990ea3b52/support-compat-26.1.0-sources.jar!/android/support/v4/app/NotificationBuilderWithBuilderAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/PasswordHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -5254,191 +5463,260 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetErrorType.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/interfaces/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="204">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/PasswordHandler.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/CustomTargetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#846#1057#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1130#1379#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/interfaces/ParticularHandler.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/HandleManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="377">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/interfaces/ErrorHandler.java">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="1021" column="16" selection-start-line="1021" selection-start-column="16" selection-end-line="1021" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/interfaces/TargetHandler.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/fragment_registration.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="42" column="69" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="69" />
+          <folding>
+            <element signature="e#901#915#0" expanded="true" />
+            <element signature="e#1534#1551#0" expanded="true" />
+            <element signature="e#2494#2509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/ExampleHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/ParticularHandler.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/BaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="264">
+          <caret line="40" column="81" selection-start-line="40" selection-start-column="81" selection-end-line="40" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2011#2012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/NameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#669#838#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/util/regex/Pattern.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding>
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/HandleActionsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/BaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/CreditCardHandler.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/validators/PhoneHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/NameHandler.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/EmailHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/FieldsErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="449">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/BaseTargetHandler.java">
+    <entry file="file://$PROJECT_DIR$/sample/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding>
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/TargetHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="459">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsActionManager.java">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/widget/LinearLayout.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/FieldsErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/fields/FieldsHandleManager.java">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/view/ViewGroup.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="123" column="103" selection-start-line="123" selection-start-column="103" selection-end-line="123" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/registration/RegistrationFragment.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/26.1.0/c7ac62df01dd0a97d93500ad3da7faebf03ba49/design-26.1.0-sources.jar!/android/support/design/widget/TextInputLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="62" column="56" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/builders/FieldHandler.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/managers/FieldsHandleManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
-          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
-          <folding />
+          <caret line="137" column="110" selection-start-line="137" selection-start-column="110" selection-end-line="137" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/handlers/fields/validators/interfaces/ParticularHandler.java">
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/TargetDestination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="179">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/login/LoginFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="41" column="113" selection-start-line="41" selection-start-column="113" selection-end-line="41" selection-end-column="113" />
+        <state relative-caret-position="162">
+          <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1789#1824#0" expanded="true" />
-            <element signature="e#1926#1961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler/src/main/java/github/homepunk/com/fieldserrorhandler/builders/TargetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalerrorhandler-annotations/src/main/java/com/homepunk/github/models/TargetErrorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/java/github/homepunk/com/example/auth/registration/RegistrationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -13,8 +13,8 @@ import android.widget.Toast;
 import java.util.regex.Pattern;
 
 import github.homepunk.com.example.R;
-import github.homepunk.com.fieldserrorhandler.handlers.builders.FieldHandler;
-import github.homepunk.com.fieldserrorhandler.managers.fields.FieldsHandleManager;
+import github.homepunk.com.fieldserrorhandler.builders.TargetHandler;
+import github.homepunk.com.fieldserrorhandler.managers.FieldsHandleManager;
 
 import static com.homepunk.github.models.TargetAction.ON_FOCUS;
 import static com.homepunk.github.models.TargetAction.ON_FOCUS_MISS;
@@ -23,7 +23,6 @@ import static com.homepunk.github.models.TargetType.EMAIL;
 import static com.homepunk.github.models.TargetType.PASSWORD;
 
 public class LoginFragment extends Fragment {
-    public static final int CODE_EMAIL_NOT_VALID = 201;
     public static final int CODE_EMAIL_CONTAIN_SPACES = 202;
     public static final Pattern EMAIL_PATTERN = Patterns.EMAIL_ADDRESS;
     private EditText mEmail;
@@ -36,10 +35,8 @@ public class LoginFragment extends Fragment {
         bind(root);
         FieldsHandleManager.getInstance(this)
                 .target(mPassword, PASSWORD, ON_FOCUS_MISS, ON_TEXT_CHANGE)
-                .target(mEmail, EMAIL, FieldHandler.builder()
-                                .handle(CODE_EMAIL_NOT_VALID, "Email isn't valid", target -> EMAIL_PATTERN.matcher(target).matches())
-                                .handle(CODE_EMAIL_CONTAIN_SPACES, R.string.error_email_contain_spaces, target -> !target.contains(" "))
-                                .handle(CODE_EMAIL_CONTAIN_SPACES, R.string.error_email_contain_spaces, target -> !target.contains(" "))
+                .target(mEmail, EMAIL, TargetHandler.getBuilder()
+                                .add(CODE_EMAIL_CONTAIN_SPACES, R.string.error_email_contain_spaces, target -> !target.contains(" "))
                                 .build(),
                         ON_FOCUS_MISS, ON_FOCUS)
                 .setOnHandleResultListener(result -> {
@@ -57,6 +54,7 @@ public class LoginFragment extends Fragment {
     }
 
     public void showError(String message) {
+        Toast toast = Toast.makeText(getActivity(), "", Toast.LENGTH_SHORT);
         Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
     }
 }

@@ -100,6 +100,7 @@
     <orderEntry type="library" exported="" name="constraint-layout-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="okhttp-2.5.0" level="project" />
+    <orderEntry type="library" exported="" name="MaskedEditText-1.0.5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-library-1.1" level="project" />
     <orderEntry type="library" exported="" name="support-vector-drawable-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="support-core-utils-26.1.0" level="project" />

@@ -74,6 +74,7 @@ ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src
 		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [ru.egslava:MaskedEditText:1.0.5] C:\Users\Homepunk\.android\build-cache\fc45e644e2a9ee730ffd3d06783df3b3779c51cc\output\AndroidManifest.xml:7:5-9:41
 MERGED from [Universal-Error-Handler:universalerrorhandler:unspecified] C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Homepunk\.android\build-cache\8f2555fb8a50c79c29813a46d0eba4639d883a98\output\AndroidManifest.xml:19:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Homepunk\.android\build-cache\70ef53769d78e86216eaa92c80e30a26b7643c78\output\AndroidManifest.xml:5:5-7:41

@@ -26,6 +26,7 @@ android {
 }
 
 dependencies {
+    compile 'ru.egslava:MaskedEditText:1.0.5'
     compile project(path: ':universalerrorhandler')
     annotationProcessor project(path: ':universalerrorhandler-processors')
 

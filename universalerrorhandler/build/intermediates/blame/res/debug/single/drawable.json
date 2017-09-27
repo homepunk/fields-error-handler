@@ -40,6 +40,10 @@
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\9a114b5fd6fd91c8abd3fab5b140f33bea1020e2\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\7e94595b29fa78b37e30012d27cdc8debf40d79d\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\9a114b5fd6fd91c8abd3fab5b140f33bea1020e2\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
@@ -112,8 +116,16 @@
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\9a114b5fd6fd91c8abd3fab5b140f33bea1020e2\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\7e94595b29fa78b37e30012d27cdc8debf40d79d\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\1dbe97eef968478df045f4f0e185a07ed2680571\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\7e94595b29fa78b37e30012d27cdc8debf40d79d\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -130,6 +142,14 @@
     {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\9a114b5fd6fd91c8abd3fab5b140f33bea1020e2\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\7e94595b29fa78b37e30012d27cdc8debf40d79d\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\7e94595b29fa78b37e30012d27cdc8debf40d79d\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\universalerrorhandler\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",

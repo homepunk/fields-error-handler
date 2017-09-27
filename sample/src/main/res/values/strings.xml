@@ -26,4 +26,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="password_confirmation">Password confirmation</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="phone">+(380) 666-66-66-666</string>
 </resources>
