@@ -3,15 +3,20 @@ Fields Error Handler :v:
 
 Field validator for Android EditText's which uses both old school programmatic way to set up validated views or annotation processing to generate boilerplate code for you.
 
-#### Supported target types:
+#### Features
+* Validate inputs based on target type;
+* Supports multiple actions when fields would be validated;
+* Custom handling error conditions by field
+* Pre-defined default error messages translated into English;
+
+##### Supported target types:
 * _`NAME`_
 * _`EMAIL`_
 * _`PHONE`_
-* _`CREDIT_CARD`_
 * _`PASSWORD`_
-* _`PASSWORD_CONFIRMATION`_
+* _`CREDIT_CARD`_
 
-#### Supported target actions: 
+##### Supported target actions: 
 - _`ON_CLICK`_
 - _`ON_FOCUS`_
 - _`ON_FOCUS_MISS`_
@@ -31,33 +36,56 @@ in progress
 ## Using old school way
 ```java
     public class LoginExampleFragment extends Fragment {
-    public static final int CODE_EMAIL_NOT_VALID = 201;
-    public static final int CODE_EMAIL_CONTAIN_SPACES = 202;
-    public static final Pattern EMAIL_PATTERN = Patterns.EMAIL_ADDRESS;
     private EditText mEmail;
     private EditText mPassword;
+    
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_login, container, false);
         bind(root);
 
-        FieldsHandleManager.getInstance(this)
-                .target(mPassword, PASSWORD, ON_FOCUS_MISS, ON_TEXT_CHANGE)
-                 .target(mEmail, EMAIL, FieldHandler.builder()
-                        .handle(CODE_EMAIL_NOT_VALID, "Email isn't valid", target -> EMAIL_PATTERN.matcher(target).matches())
-                        .handle(CODE_EMAIL_CONTAIN_SPACES, R.string.error_email_contain_spaces, target -> !target.contains(" "))
-                        .build())
+         FieldsHandleManager.getInstance(this)
+                .target(mEmail, EMAIL)
+                .target(mPassword, PASSWORD, ON_TEXT_CHANGE, ON_FOCUS_MISS)
                 .setOnHandleResultListener(result -> {
                     if (!result.isSuccess()) {
                         showError(result.getMessage());
                     }
                 });
-
         return root;
     }
    }
 ```
+
+### Custom handle conditions
+You can simply setup field handler using TargetHandler builder
+
+#### Features: 
+* Supports adding your custom particular errors using add(int code, @StringRes int stringResId, ParticularHandler handler) method.
+* Supports removing already setted up errors using remove(int code) method. 
+* Supports references to string resources ids
+
+```java
+public class RegistrationFragment extends Fragment {
+    public static final int PASSWORD_VERIFICATION = 1;
+    public static final int PASSWORDS_DONT_MATCH = 2;
+    ...
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        ...
+        FieldsHandleManager.getInstance(this)
+                .target(mPassword, PASSWORD)
+                .target(mPasswordVerification, PASSWORD_VERIFICATION, TargetHandler.getBuilder()
+                        .add(PASSWORDS_DONT_MATCH, "Passwords don't match", target -> target.equals(mPassword.getText().toString()))
+                        .remove(TEXT_CONTAINS_UPPER_CASE)
+                        .build());
+        ...                
+    }
+```
+
 ## Using annotations
   - Setup validated field by using `@HandleField` annoation (Default action is _`ON_FOCUS_MISS`_)
   - Setup method that will receive the result of validating the fields using `@OnFieldHandleResult` annonation.
@@ -96,18 +124,3 @@ in progress
         }
      }
 ```
-### Custom validation conditions
-In order to make your own validator you should simply create class implementing `UniversalValidator` and setup logic in `isValid(String target)` method where `target` is a text to validate
-```java
-public class ExampleValidator implements UniversalValidator {
-    @Override
-    public boolean isValid(String target) {
-        return false;
-    }
-}
-```
-------
-
-# Response errors
-------
-In progress
