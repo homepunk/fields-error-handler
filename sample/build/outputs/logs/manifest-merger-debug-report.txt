@@ -27,7 +27,7 @@ ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src
 		ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:8:22-69
 application
 ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml:10:5-27:19
-MERGED from [Universal-Error-Handler:universalerrorhandler:unspecified] C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [Universal-Error-Handler:fieldserrorhandler:unspecified] C:\Users\Homepunk\Documents\github\Universal-Error-Handler\fieldserrorhandler\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Homepunk\.android\build-cache\70ef53769d78e86216eaa92c80e30a26b7643c78\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.1.0] C:\Users\Homepunk\.android\build-cache\7e94595b29fa78b37e30012d27cdc8debf40d79d\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Homepunk\.android\build-cache\9a114b5fd6fd91c8abd3fab5b140f33bea1020e2\output\AndroidManifest.xml:25:5-29:19
@@ -75,7 +75,7 @@ ADDED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src
 uses-sdk
 INJECTED from C:\Users\Homepunk\Documents\github\Universal-Error-Handler\sample\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [ru.egslava:MaskedEditText:1.0.5] C:\Users\Homepunk\.android\build-cache\fc45e644e2a9ee730ffd3d06783df3b3779c51cc\output\AndroidManifest.xml:7:5-9:41
-MERGED from [Universal-Error-Handler:universalerrorhandler:unspecified] C:\Users\Homepunk\Documents\github\Universal-Error-Handler\universalerrorhandler\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [Universal-Error-Handler:fieldserrorhandler:unspecified] C:\Users\Homepunk\Documents\github\Universal-Error-Handler\fieldserrorhandler\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Homepunk\.android\build-cache\8f2555fb8a50c79c29813a46d0eba4639d883a98\output\AndroidManifest.xml:19:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Homepunk\.android\build-cache\70ef53769d78e86216eaa92c80e30a26b7643c78\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:26.1.0] C:\Users\Homepunk\.android\build-cache\7e94595b29fa78b37e30012d27cdc8debf40d79d\output\AndroidManifest.xml:21:5-23:62

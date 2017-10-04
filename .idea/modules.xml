@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Universal-Error-Handler.iml" filepath="$PROJECT_DIR$/Universal-Error-Handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fieldserrorhandler/fieldserrorhandler.iml" filepath="$PROJECT_DIR$/fieldserrorhandler/fieldserrorhandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fieldserrorhandler-annotations/fieldserrorhandler-annotations.iml" filepath="$PROJECT_DIR$/fieldserrorhandler-annotations/fieldserrorhandler-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fieldserrorhandler-processors/fieldserrorhandler-processors.iml" filepath="$PROJECT_DIR$/fieldserrorhandler-processors/fieldserrorhandler-processors.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/universalerrorhandler/universalerrorhandler.iml" filepath="$PROJECT_DIR$/universalerrorhandler/universalerrorhandler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/universalerrorhandler-annotations/universalerrorhandler-annotations.iml" filepath="$PROJECT_DIR$/universalerrorhandler-annotations/universalerrorhandler-annotations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/universalerrorhandler-processors/universalerrorhandler-processors.iml" filepath="$PROJECT_DIR$/universalerrorhandler-processors/universalerrorhandler-processors.iml" />
     </modules>
   </component>
 </project>

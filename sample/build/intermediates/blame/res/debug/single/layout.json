@@ -112,12 +112,12 @@
         "source": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\src\\main\\res\\layout\\fragment_registration.xml"
     },
     {
-        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\41a454763f796b462fd8c4e215c84bc18de0154d\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\Homepunk\\.android\\build-cache\\7e94595b29fa78b37e30012d27cdc8debf40d79d\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Homepunk\\.android\\build-cache\\41a454763f796b462fd8c4e215c84bc18de0154d\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "C:\\Users\\Homepunk\\Documents\\github\\Universal-Error-Handler\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",

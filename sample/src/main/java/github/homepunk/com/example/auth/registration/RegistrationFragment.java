@@ -15,8 +15,6 @@ import github.homepunk.com.fieldserrorhandler.builders.TargetHandler;
 import github.homepunk.com.fieldserrorhandler.managers.FieldsHandleManager;
 import github.homepunk.com.fieldserrorhandler.models.HandleResult;
 
-import static com.homepunk.github.models.TargetAction.ON_FOCUS_MISS;
-import static com.homepunk.github.models.TargetAction.ON_TEXT_CHANGE;
 import static com.homepunk.github.models.TargetErrorType.TEXT_CONTAINS_UPPER_CASE;
 import static com.homepunk.github.models.TargetType.EMAIL;
 import static com.homepunk.github.models.TargetType.NAME;

@@ -8,10 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/fieldserrorhandler" />
+            <option value="$PROJECT_DIR$/fieldserrorhandler-annotations" />
+            <option value="$PROJECT_DIR$/fieldserrorhandler-processors" />
             <option value="$PROJECT_DIR$/sample" />
-            <option value="$PROJECT_DIR$/universalerrorhandler" />
-            <option value="$PROJECT_DIR$/universalerrorhandler-annotations" />
-            <option value="$PROJECT_DIR$/universalerrorhandler-processors" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

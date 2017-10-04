@@ -27,8 +27,8 @@ android {
 
 dependencies {
     compile 'ru.egslava:MaskedEditText:1.0.5'
-    compile project(path: ':universalerrorhandler')
-    annotationProcessor project(path: ':universalerrorhandler-processors')
+    compile project(path: ':fieldserrorhandler')
+    annotationProcessor project(path: ':fieldserrorhandler-processors')
 
     //  Network
     compile 'com.squareup.retrofit2:retrofit:2.3.0'
